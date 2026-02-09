@@ -1,0 +1,257 @@
+[
+  {
+    "problem_or_theory": "Actionable team development frameworks",
+    "type": "Neutral Case",
+    "description": "The vast majority of respected, science-rich team development models fall short. Richard Hackman and Ruth Wageman, both hugely respected in the team development field, identified six conditions that they found determined team success. They further divided these into groups of three and entitled these groups \"essentials\" and \"enablers.\" However, their model was based on research that was only conducted with the most senior teams and at least one of their conditions, organizational support, simply cannot be actioned by any teams other than the most senior of teams.",
+    "social_skills": [
+      "Teamwork and working cooperatively"
+    ],
+    "scenario_types": {
+      "contextual_types": [
+        {
+          "category_name": "Workplace",
+          "detail_name": "professional collaboration"
+        }
+      ],
+      "interaction_goal_types": [
+        "Collaboration"
+      ]
+    },
+    "casel_competencies": [
+      "Relationship Skills"
+    ]
+  },
+  {
+    "problem_or_theory": "Scientific validity of team development codes",
+    "type": "Neutral Case",
+    "description": "The conclusions and recommendations we get from academics are without the usual commercial self-interest or shiny wrapping that we see elsewhere. They are the proper experts, and a code has to stand up to their scientific scrutiny by satisfying three conditions: 1. It has to contain the factors that science tells us predict performance (it has content validity); 2. It must include not just some, but all the known factors that determine team performance (it has content validity and covers the ground); and 3. Each stage of the code has to predict performance in the next stage of the code, and the final stage of the code has to predict overall team performance (concurrent and predictive validity).",
+    "social_skills": [
+      "Analyzing situations and consequences",
+      "Teamwork and working cooperatively"
+    ],
+    "scenario_types": {
+      "contextual_types": [
+        {
+          "category_name": "Workplace",
+          "detail_name": "professional collaboration"
+        }
+      ],
+      "interaction_goal_types": [
+        "Collaboration"
+      ]
+    },
+    "casel_competencies": [
+      "Social Awareness",
+      "Responsible Decision-Making"
+    ]
+  },
+  {
+    "problem_or_theory": "Constructive conflict resolution and mutual support",
+    "type": "Good Case",
+    "description": "We had employed a guide, and I had serious concerns about his navigation skills. After a bad day when we kept back tracking, I told Cho I didn\u2019t think he was any good and was going to fire the guide the next morning. Later that evening, Cho came up to me and told me to go easy on him. It was impossible to know which way to go, he said, so mistakes were unavoidable and not that costly in the grand scheme of things. He told me he was a really good guy and that although it\u2019s my decision, he advised me to not fire him.",
+    "social_skills": [
+      "Resolving conflicts",
+      "Empathy and compassion",
+      "Perspective-taking",
+      "Communication"
+    ],
+    "scenario_types": {
+      "contextual_types": [
+        {
+          "category_name": "Workplace",
+          "detail_name": "professional collaboration"
+        }
+      ],
+      "interaction_goal_types": [
+        "Negotiation",
+        "Accommodation"
+      ]
+    },
+    "casel_competencies": [
+      "Relationship Skills",
+      "Responsible Decision-Making",
+      "Social Awareness"
+    ]
+  },
+  {
+    "problem_or_theory": "Impact of digital transformation on mental health and team dynamics",
+    "type": "Bad Case",
+    "description": "Tomorrow, I facilitate a workshop for a leader who is working seventy-hour weeks, driving several Dx work streams, who fears for his job, and who has several of his team members who are very close to a breaking point. He\u2019s suffering and his team is suffering, and these two things are related. My client Bill is not alone. The research tells us that the distraction caused by Dx to leaders like Bill threatens the implementation of corporate strategy they are responsible for implementing, reduces the time people like Bill have to build self-awareness, and increases the blurred lines between their work and non-work domains, just as Bill is experiencing.",
+    "social_skills": [
+      "Stress management",
+      "Empathy and compassion",
+      "Leadership",
+      "Teamwork and working cooperatively"
+    ],
+    "scenario_types": {
+      "contextual_types": [
+        {
+          "category_name": "Workplace",
+          "detail_name": "professional collaboration"
+        }
+      ],
+      "interaction_goal_types": [
+        "Collaboration"
+      ]
+    },
+    "casel_competencies": [
+      "Self-Awareness",
+      "Self-Management",
+      "Social Awareness",
+      "Relationship Skills",
+      "Responsible Decision-Making"
+    ]
+  },
+  {
+    "problem_or_theory": "Work environment and mental health",
+    "type": "Neutral Case",
+    "description": "TEAM INSIGHT: MENTAL HEALTH AND LAVATORIES Every team I work with these days is under pressure of tight deadlines. It wasn\u2019t like this at the Defence Logistics Organisation in 2004 when I was working there as management consultant. The DLO is responsible for purchasing all the materials and equipment used by the UK armed forces on and off the battlefield. If you ventured into their lavatories wanting more than a pee, there were chairs you could sit on while waiting for one of the three cubicles to become free. How thoughtful. Rather than return to your desk, be productive, and then return a little later, you could take the opportunity to rest your weary legs from the ever so long walk to the loos (fifty to one hundred yards) and sit in peace for a few minutes. But the generosity didn\u2019t stop there; next to these chairs there was a pile of magazines you could read while you were patiently (or impatiently) waiting for a free cubicle.",
+    "social_skills": [
+      "Stress management"
+    ],
+    "scenario_types": {
+      "contextual_types": [
+        {
+          "category_name": "Workplace",
+          "detail_name": "Office"
+        }
+      ],
+      "interaction_goal_types": [
+        "Other"
+      ]
+    },
+    "casel_competencies": [
+      "Social Awareness",
+      "Responsible Decision-Making"
+    ]
+  },
+  {
+    "problem_or_theory": "Ego in leadership and team dynamics",
+    "type": "Bad Case",
+    "description": "Back in 2006, I was consulting at the BBC and was struck at how hard it was to build a sense of team-ship in the news and the programs departments. Producers had to \"line-manage\" famous presenters who were earning ten times their salary. Egos just got in the way, and for a while, the BBC used to tolerate the most obnoxious behavior from their \"talent\" simply because they were \"talent.\" When Jeremy Clarkson, one of the highest earners at the BBC, was fired from Top Gear in 2015, it was allegedly for thumping his producer in a row about not being able to get a late-night steak at the hotel his producer had chosen.",
+    "social_skills": [
+      "Resolving conflicts",
+      "Leadership",
+      "Teamwork and working cooperatively",
+      "Emotion regulation"
+    ],
+    "scenario_types": {
+      "contextual_types": [
+        {
+          "category_name": "Workplace",
+          "detail_name": "professional collaboration"
+        }
+      ],
+      "interaction_goal_types": [
+        "Collaboration"
+      ]
+    },
+    "casel_competencies": [
+      "Social Awareness",
+      "Relationship Skills",
+      "Responsible Decision-Making",
+      "Self-Management",
+      "Self-Awareness"
+    ]
+  },
+  {
+    "problem_or_theory": "Agile team structures and adaptability",
+    "type": "Good Case",
+    "description": "The next day, Valentine\u2019s Day, conveniently marked the precise time that software engineers at organizations around the world started to fall in love with the 11 principles of team working that made up the Agile Manifesto. Organizations have been implementing agile ever since, especially in more recent years when it has really taken o\ufb00. Agile teams self-organize themselves, deconstruct hierarchy, and repeatedly iterate in a do-learn\u2014do fashion and the agile methodology has now migrated beyond software development and become the norm in many other areas of the business, especially in change functions.",
+    "social_skills": [
+      "Teamwork and working cooperatively"
+    ],
+    "scenario_types": {
+      "contextual_types": [
+        {
+          "category_name": "Workplace",
+          "detail_name": "professional collaboration"
+        }
+      ],
+      "interaction_goal_types": [
+        "Other"
+      ]
+    },
+    "casel_competencies": [
+      "Relationship Skills"
+    ]
+  },
+  {
+    "problem_or_theory": "Empowerment and distributed leadership",
+    "type": "Good Case",
+    "description": "Empowerment is not a one-way street. It exists as part of an agreed transaction, ideally made in the Get Set phase. I advise the team leaders I work with to strike an explicit 'empowerment deal' with their teams. I regularly run an exercise where I ask the team to reveal what they most want from their leader that they are not getting enough of. Then I ask the team leader to reveal what they most want from the team that they are not getting enough of. They barter and haggle a little bit and they end up with an agreement where ten times out of ten, trust and empowerment are central components.",
+    "social_skills": [
+      "Leadership",
+      "Building relationships"
+    ],
+    "scenario_types": {
+      "contextual_types": [
+        {
+          "category_name": "Workplace",
+          "detail_name": "professional collaboration"
+        }
+      ],
+      "interaction_goal_types": [
+        "Collaboration"
+      ]
+    },
+    "casel_competencies": [
+      "Social Awareness",
+      "Relationship Skills",
+      "Responsible Decision-Making"
+    ]
+  },
+  {
+    "problem_or_theory": "Adaptability in team structures",
+    "type": "Good Case",
+    "description": "It\u2019s the insatiable demand for adaptability. It is your team\u2019s adaptability that will determine whether you are ultimately successful. The code provides you with a tried and tested route to making your team adaptable. You start with getting it set by ensuring your team is clear on what\u2019s expected and on the same page in relation to its goals, roles, and disciplines, then leveraging this con\ufb01dence to build high levels of psychological safety (so it becomes safe) before \ufb01nally utilizing the learning arising from this safety to be more autonomous, and more able to experiment, to try things out and to rapidly learn from what happens (becoming strong).",
+    "social_skills": [
+      "Teamwork and working cooperatively",
+      "Building relationships",
+      "Leadership"
+    ],
+    "scenario_types": {
+      "contextual_types": [
+        {
+          "category_name": "Workplace",
+          "detail_name": "professional collaboration"
+        }
+      ],
+      "interaction_goal_types": [
+        "Collaboration"
+      ]
+    },
+    "casel_competencies": [
+      "Social Awareness",
+      "Responsible Decision-Making",
+      "Self-Management"
+    ]
+  },
+  {
+    "problem_or_theory": "Clarifying expectations in cross-functional teams",
+    "type": "Good Case",
+    "description": "In the cross-functional team, leaders don\u2019t fully 'own' their team members, so team-first thinking becomes impossible\u2014the only member of a CFT who can expect to be universally loyal to that team is the team leader. Clarifying expectations therefore becomes even more important, as they provide a much-needed means of harnessing attention. Research findings confirm that the most successful CFTs have leaders who invest in the necessary upfront time ensuring the team has clearly established goals, an agreed means of influencing their stakeholders so that they get the resources they need, and a set of team norms that include operating with crystal clear deadlines.",
+    "social_skills": [
+      "Leadership",
+      "Teamwork and working cooperatively",
+      "Communication",
+      "Goal-setting"
+    ],
+    "scenario_types": {
+      "contextual_types": [
+        {
+          "category_name": "Workplace",
+          "detail_name": "professional collaboration"
+        }
+      ],
+      "interaction_goal_types": [
+        "Collaboration"
+      ]
+    },
+    "casel_competencies": [
+      "Social Awareness",
+      "Relationship Skills",
+      "Responsible Decision-Making"
+    ]
+  }
+]

@@ -1,0 +1,1965 @@
+[
+  {
+    "title": "Dinner Conversation Between Mia and Aniyah",
+    "background": "Mia and Aniyah, two friends, meet at their favorite French bistro for dinner after a period of diminished intimacy in their friendship. Both are busy with children and full-time jobs, making their dinners less frequent than they had hoped.",
+    "description": "During dinner, Mia and Aniyah catch up on life. Aniyah shares her struggles with exhaustion and feeling behind on everything despite cutting back on sleep and exercise. Mia empathizes but also shares her own challenges with juggling her promotion, kids, and house construction. Aniyah feels resentment, perceiving Mia's struggles as stemming from positive developments, while her own are rooted in dissatisfaction. Aniyah shares her guilt about missing her son Evan's field trip due to work demands, and Mia suggests she find a new job. This advice irritates Aniyah, who feels Mia is dismissive of her struggles. The conversation escalates into mutual defensiveness and blame, with both feeling unheard and misunderstood. The evening ends with both women feeling angry and resentful toward each other.",
+    "key_characters": [
+      {
+        "name": "Mia",
+        "is_main": true,
+        "identity": "Mia, a mother with children, working full-time, recently promoted, and involved in house construction.",
+        "personality": "Empathetic but logical, values productivity and solutions, communicates directly but can come across as dismissive.",
+        "experience": "Experienced in balancing work and family life, recently promoted, managing house construction, and navigating friendship dynamics."
+      },
+      {
+        "name": "Aniyah",
+        "is_main": true,
+        "identity": "Aniyah, a mother with children, working full-time, struggling with job dissatisfaction and exhaustion.",
+        "personality": "Sensitive and emotional, values empathy and understanding, communicates openly but can feel insecure.",
+        "experience": "Experienced in managing work-life balance, facing challenges with job satisfaction, and dealing with feelings of guilt and insecurity."
+      },
+      {
+        "name": "Evan",
+        "is_main": false,
+        "identity": "Evan, Aniyah's child, school-aged.",
+        "personality": "Not explicitly described in the text.",
+        "experience": "Missed a field trip chaperoned by his mother due to her work obligations."
+      }
+    ],
+    "relations": [
+      {
+        "relation_type": "friendship",
+        "persons": [
+          "Mia",
+          "Aniyah"
+        ]
+      },
+      {
+        "relation_type": "parent-child",
+        "persons": [
+          "Aniyah",
+          "Evan"
+        ]
+      }
+    ],
+    "key_activities_or_interactions": [
+      {
+        "character_name": "Aniyah",
+        "behavior_action": "Shares her struggles with exhaustion and feeling behind.",
+        "emotional_state": "Tired and frustrated.",
+        "speak": "I\u2019m so tired all the time. I\u2019m always behind on everything and no matter how much I cut back on my sleep and exercise, I can\u2019t seem to make much headway."
+      },
+      {
+        "character_name": "Mia",
+        "behavior_action": "Empathizes and shares her own challenges.",
+        "emotional_state": "Understanding but slightly dismissive.",
+        "speak": "I know just what you mean. I\u2019m juggling a lot, too, between the promotion, the kids, and the new house construction. What I\u2019d give for five more hours in every day!"
+      },
+      {
+        "character_name": "Aniyah",
+        "behavior_action": "Expresses resentment and insecurity.",
+        "emotional_state": "Resentful and insecure.",
+        "speak": "Yeah, I know you have a lot going on, too. But at least you\u2019re tired as a result of all kinds of good stuff. I\u2019m stuck in the same rut at work, and half the time I feel like a bad mother for all the time I could be with the kids."
+      },
+      {
+        "character_name": "Mia",
+        "behavior_action": "Suggests Aniyah find a new job.",
+        "emotional_state": "Logical but frustrated.",
+        "speak": "Maybe it\u2019s time for you to finally find a new job."
+      },
+      {
+        "character_name": "Aniyah",
+        "behavior_action": "Responds defensively to Mia's suggestion.",
+        "emotional_state": "Disappointed and irritated.",
+        "speak": "Easy for you to say, Mia. Everything is just great in your life. Plus, we need my income and my job pays well."
+      },
+      {
+        "character_name": "Mia",
+        "behavior_action": "Expresses frustration with Aniyah's sensitivity.",
+        "emotional_state": "Frustrated and defensive.",
+        "speak": "I\u2019m only trying to help, Aniyah, but I feel like anything I say gets your back up. Why are you so sensitive?"
+      },
+      {
+        "character_name": "Aniyah",
+        "behavior_action": "Explains her feelings of being unheard.",
+        "emotional_state": "Tired and vulnerable.",
+        "speak": "Look, I\u2019m really tired. I shared something personal, and all I got from you was telling me to find a new job. I know you mean well, Mia, but it feels like you are not hearing how hard this all is for me."
+      },
+      {
+        "character_name": "Mia",
+        "behavior_action": "Expresses disbelief at Aniyah's accusation.",
+        "emotional_state": "Angry and defensive.",
+        "speak": "How can you say that? Of course I know how hard this is for you!"
+      },
+      {
+        "character_name": "Aniyah",
+        "behavior_action": "Shares her feelings of envy and insecurity.",
+        "emotional_state": "Resentful and insecure.",
+        "speak": "Plus, hearing about your promotion and the new house you\u2019re building makes it all worse. I know I shouldn\u2019t say that because I wish nothing but the best for you."
+      },
+      {
+        "character_name": "Mia",
+        "behavior_action": "Expresses frustration at the dynamic.",
+        "emotional_state": "Frustrated and resigned.",
+        "speak": "Geez, it\u2019s like a minefield with you. I don\u2019t know what to say that won\u2019t make things worse."
+      },
+      {
+        "character_name": "Aniyah",
+        "behavior_action": "Ends the evening with resignation.",
+        "emotional_state": "Exhausted and resigned.",
+        "speak": "Agreed."
+      },
+      {
+        "character_name": "Mia",
+        "behavior_action": "Expresses sarcasm about the evening.",
+        "emotional_state": "Angry and resentful.",
+        "speak": "Well, that was a great use of an evening away from Jake and the kids."
+      }
+    ],
+    "goals": [
+      {
+        "character_name": "Aniyah",
+        "character_goal": "To share her struggles and receive empathy and understanding from Mia."
+      },
+      {
+        "character_name": "Mia",
+        "character_goal": "To help Aniyah by offering advice and to share her own challenges."
+      }
+    ],
+    "evaluation_guidance": "Reflect on how Mia and Aniyah could have expressed their emotions more productively and avoided defensiveness. Consider how empathy and active listening could have improved the interaction.",
+    "difficulty_score": 4,
+    "difficulty_level": "Hard",
+    "social_skills": [
+      "Empathy and compassion",
+      "Communication",
+      "Perspective-taking",
+      "Resolving conflicts"
+    ],
+    "scenario_types": {
+      "interaction_goal_types": [
+        "Exchange",
+        "Other"
+      ],
+      "contextual_types": [
+        {
+          "category_name": "Friendship",
+          "detail_name": "emotional bonding"
+        }
+      ]
+    },
+    "casel_competencies": [
+      "Social Awareness",
+      "Relationship Skills",
+      "Responsible Decision-Making"
+    ]
+  },
+  {
+    "title": "Aniyah and Mia's Friendship Conflict Resolution",
+    "background": "Aniyah and Mia, long-time friends with a 25+ year relationship, experience tension following a dinner conversation. Aniyah feels hurt by Mia's comments and struggles with whether to continue the friendship. The scenario unfolds across multiple locations: Aniyah's home, her workplace, and the community gardens gazebo, over several days.",
+    "description": "After a tense dinner conversation, Aniyah drives home upset and discusses the situation with her husband, Christopher, who encourages her to reconsider giving up on the friendship. The next day, Aniyah reflects on the loss of closeness with Mia and decides to email her instead of calling to avoid further conflict. Mia responds quickly, suggesting a meeting at the community gardens gazebo. During the meeting, Aniyah and Mia initially clash, with accusations of insensitivity and oversensitivity. However, as the conversation progresses, they begin to understand each other's perspectives. Mia shares her struggles with feeling inadequate growing up and her desire to share her success with Aniyah. Aniyah expresses her feelings of envy and insecurity, and they both acknowledge their mutual challenges in maintaining the friendship. The conversation ends on a hopeful note, with both friends committed to working through their issues.",
+    "key_characters": [
+      {
+        "name": "Aniyah",
+        "is_main": true,
+        "identity": "Aniyah, a middle-aged woman, married to Christopher, living near the community gardens.",
+        "personality": "Sensitive, introspective, values long-term relationships, struggles with insecurity and envy.",
+        "experience": "Has maintained a 25+ year friendship with Mia, faces challenges in balancing personal struggles with supporting others."
+      },
+      {
+        "name": "Mia",
+        "is_main": true,
+        "identity": "Mia, a middle-aged woman, successful in her career, lives in a new house.",
+        "personality": "Confident, pragmatic, values success and sharing achievements, struggles with expressing emotional vulnerability.",
+        "experience": "Grew up feeling inadequate compared to wealthier peers, now successful and eager to share her accomplishments."
+      },
+      {
+        "name": "Christopher",
+        "is_main": false,
+        "identity": "Christopher, Aniyah's husband, middle-aged man.",
+        "personality": "Supportive, thoughtful, encourages reflection and dialogue.",
+        "experience": "Married to Aniyah, provides emotional support during her conflicts."
+      }
+    ],
+    "relations": [
+      {
+        "relation_type": "long-term friendship",
+        "persons": [
+          "Aniyah",
+          "Mia"
+        ]
+      },
+      {
+        "relation_type": "spousal relationship",
+        "persons": [
+          "Aniyah",
+          "Christopher"
+        ]
+      }
+    ],
+    "key_activities_or_interactions": [
+      {
+        "character_name": "Aniyah",
+        "behavior_action": "Drives home upset and cries.",
+        "emotional_state": "Upset and tearful.",
+        "speak": "\u201cMaybe it\u2019s time to let that friendship go. It\u2019s more trouble than it\u2019s worth.\u201d"
+      },
+      {
+        "character_name": "Christopher",
+        "behavior_action": "Meets Aniyah at the door and listens to her concerns.",
+        "emotional_state": "Supportive and thoughtful.",
+        "speak": "\u201cDo you really want to give up on a twenty-five-plus-year friendship?\u201d"
+      },
+      {
+        "character_name": "Aniyah",
+        "behavior_action": "Reflects on her friendship with Mia while driving to work.",
+        "emotional_state": "Sad and empty."
+      },
+      {
+        "character_name": "Aniyah",
+        "behavior_action": "Writes an email to Mia expressing her feelings and suggesting a meeting.",
+        "emotional_state": "Thoughtful and hopeful.",
+        "speak": "\u201cI don\u2019t know about you, but I\u2019m still feeling bad about how dinner went last night. We\u2019ve had a long-standing friendship and we\u2019ve been important to each other for many years. I don\u2019t know how you feel, but I\u2019d like to meet again to see what we can do. But let\u2019s not meet for dinner. I think we need a more private place and a little more time than a hurried meal.\u201d"
+      },
+      {
+        "character_name": "Mia",
+        "behavior_action": "Responds to Aniyah's email suggesting a meeting at the community gardens gazebo.",
+        "emotional_state": "Neutral and pragmatic.",
+        "speak": "\u201cGlad to get your email; how about meeting at noon a week from Saturday at the community gardens gazebo, which is always empty? Will that work?\u201d"
+      },
+      {
+        "character_name": "Aniyah",
+        "behavior_action": "Walks to the community gardens gazebo for the meeting.",
+        "emotional_state": "Nervous and worried."
+      },
+      {
+        "character_name": "Mia",
+        "behavior_action": "Greets Aniyah with a hug and initiates the conversation.",
+        "emotional_state": "Calm and inviting.",
+        "speak": "\u201cSo, what\u2019s on your mind?\u201d"
+      },
+      {
+        "character_name": "Aniyah",
+        "behavior_action": "Expresses her feelings about the friendship and accuses Mia of insensitivity.",
+        "emotional_state": "Defensive and hurt.",
+        "speak": "\u201cWhat is it with me? What is it with you? How can you be so insensitive? I feel like you don\u2019t care about our relationship.\u201d"
+      },
+      {
+        "character_name": "Mia",
+        "behavior_action": "Defends herself and shares her struggles with expressing emotions.",
+        "emotional_state": "Defensive and worried.",
+        "speak": "\u201cJust because I don\u2019t get all worked up about every little thing and don\u2019t react the way you do doesn\u2019t mean I\u2019m insensitive or I don\u2019t care!\u201d"
+      },
+      {
+        "character_name": "Aniyah",
+        "behavior_action": "Acknowledges her feelings of envy and insecurity.",
+        "emotional_state": "Vulnerable and introspective.",
+        "speak": "\u201cI have to admit that sometimes when we talk, it leaves me feeling even worse about the stuff that isn\u2019t working that well in my life. I feel inadequate so often, and it\u2019s really painful to feel that way even when I\u2019m with one of my best friends.\u201d"
+      },
+      {
+        "character_name": "Mia",
+        "behavior_action": "Shares her background and emotional struggles.",
+        "emotional_state": "Emotional and tearful.",
+        "speak": "\u201cYou know my background, growing up where all the other kids were from rich families. We weren\u2019t poor, but I always had less than the others. It feels so good to be successful, and I don\u2019t want to brag, but who else can I share this with?\u201d"
+      },
+      {
+        "character_name": "Aniyah",
+        "behavior_action": "Reaches for Mia\u2019s hand and reassures her.",
+        "emotional_state": "Supportive and empathetic.",
+        "speak": "\u201cOh, Mia, I do want to celebrate with you. And believe me, I\u2019m happy for you and want to be the person you can fully let it all hang out with.\u201d"
+      }
+    ],
+    "goals": [
+      {
+        "character_name": "Aniyah",
+        "character_goal": "To address the tension in her friendship with Mia and restore their closeness."
+      },
+      {
+        "character_name": "Mia",
+        "character_goal": "To share her successes with Aniyah and resolve the conflict in their friendship."
+      },
+      {
+        "character_name": "Christopher",
+        "character_goal": "To support Aniyah in making a thoughtful decision about her friendship with Mia."
+      }
+    ],
+    "evaluation_guidance": "Reflect on how Aniyah and Mia navigated their conflict. Consider the importance of expressing emotions and understanding each other's perspectives in maintaining relationships.",
+    "difficulty_score": 4,
+    "difficulty_level": "Hard",
+    "social_skills": [
+      "Resolving conflicts",
+      "Empathy and compassion",
+      "Perspective-taking",
+      "Communication",
+      "Building relationships"
+    ],
+    "scenario_types": {
+      "interaction_goal_types": [
+        "Collaboration",
+        "Accommodation"
+      ],
+      "contextual_types": [
+        {
+          "category_name": "Friendship",
+          "detail_name": "emotional bonding"
+        },
+        {
+          "category_name": "Friendship",
+          "detail_name": "casual talk"
+        }
+      ]
+    },
+    "casel_competencies": [
+      "Relationship Skills",
+      "Social Awareness",
+      "Self-Awareness",
+      "Responsible Decision-Making"
+    ]
+  },
+  {
+    "title": "Grocery Store Interaction Leading to a Date",
+    "background": "Connell approaches Nicole on a cold January day in a grocery store. Nicole is bundled up in a pink scarf and fuzzy white hat.",
+    "description": "Connell initiates a conversation with Nicole using a direct opener, complimenting her appearance. Nicole responds positively, mentioning her scarf was a Christmas gift. Connell continues the conversation by asking about her holiday and sharing information about himself. They exchange introductions, and Connell guesses Nicole's profession, leading to a discussion about their respective jobs. Connell uses humor and gestures to keep the interaction engaging and flirty. After a brief discussion about salad, Connell expresses his interest in meeting Nicole again and proposes a date. Nicole agrees, and they finalize the details for a Thursday night outing. Connell takes Nicole's number and stays for a minute longer to avoid seeming like he was only interested in getting her number.",
+    "key_characters": [
+      {
+        "name": "Connell",
+        "is_main": true,
+        "identity": "Connell, male, magazine journalist specializing in golf, speaks English.",
+        "personality": "Confident, outgoing, humorous, charismatic communicator.",
+        "experience": "Experienced in social interactions, skilled in conversation techniques, works as a magazine journalist."
+      },
+      {
+        "name": "Nicole",
+        "is_main": true,
+        "identity": "Nicole, female, works in social media for a company, speaks English.",
+        "personality": "Friendly, approachable, warm, slightly nervous but open to conversation.",
+        "experience": "Experienced in social media, has connections with fashion brands, enjoys spa treatments and driving golf carts."
+      }
+    ],
+    "relations": [
+      {
+        "relation_type": "strangers meeting for the first time",
+        "persons": [
+          "Connell",
+          "Nicole"
+        ]
+      }
+    ],
+    "key_activities_or_interactions": [
+      {
+        "character_name": "Connell",
+        "behavior_action": "Initiates conversation with a compliment.",
+        "emotional_state": "Confident",
+        "speak": "Excuse me, miss. You look like the cover of J.Crew\u2019s winter catalog. Super cute."
+      },
+      {
+        "character_name": "Nicole",
+        "behavior_action": "Responds positively to the compliment.",
+        "emotional_state": "Smiling, appreciative",
+        "speak": "Oh, hi, thanks. I got the scarf for Christmas."
+      },
+      {
+        "character_name": "Connell",
+        "behavior_action": "Asks about her holiday and shares information about himself.",
+        "emotional_state": "Engaged, conversational",
+        "speak": "Nice. How was your holiday? Get anything good? My dad hates gift cards. He\u2019s such a Scrooge. But I\u2019m the youngest of six, so I always get what I want."
+      },
+      {
+        "character_name": "Nicole",
+        "behavior_action": "Shares details about her holiday gifts.",
+        "emotional_state": "Relaxed, conversational",
+        "speak": "My mom gave me a spa treatment and a bunch of gift certificates."
+      },
+      {
+        "character_name": "Connell",
+        "behavior_action": "Introduces himself.",
+        "emotional_state": "Polite, friendly",
+        "speak": "I\u2019m Connell, by the way. It\u2019s a pleasure."
+      },
+      {
+        "character_name": "Nicole",
+        "behavior_action": "Introduces herself.",
+        "emotional_state": "Friendly",
+        "speak": "I\u2019m Nicole! Nice to meet you."
+      },
+      {
+        "character_name": "Connell",
+        "behavior_action": "Guesses Nicole's profession and engages in playful conversation.",
+        "emotional_state": "Playful, curious",
+        "speak": "So what do you do? Wait, let me guess. I\u2019m gonna say you work in fashion."
+      },
+      {
+        "character_name": "Nicole",
+        "behavior_action": "Clarifies her profession and asks about Connell's job.",
+        "emotional_state": "Engaged",
+        "speak": "Not even close. I do social media for [company name], but we sometimes work with fashion brands. What do you do?"
+      },
+      {
+        "character_name": "Connell",
+        "behavior_action": "Shares details about his job and uses hand gestures.",
+        "emotional_state": "Charismatic",
+        "speak": "I\u2019m a magazine journalist. I write about golf."
+      },
+      {
+        "character_name": "Nicole",
+        "behavior_action": "Mentions her dad's interest in golf and her enjoyment of driving golf carts.",
+        "emotional_state": "Relaxed, conversational",
+        "speak": "My dad loves golf! I\u2019m not that into it, but I love to drive the cart."
+      },
+      {
+        "character_name": "Connell",
+        "behavior_action": "Teases Nicole and keeps the conversation flirty.",
+        "emotional_state": "Playful",
+        "speak": "Just my luck. Pretty girls like you never play golf. It\u2019s always the dads."
+      },
+      {
+        "character_name": "Connell",
+        "behavior_action": "Proposes a date.",
+        "emotional_state": "Nervous but confident",
+        "speak": "I have to go in a second, but I\u2019m really glad we met. You\u2019re really cool\u2014even though you hate golf. It would be nice to meet up when we\u2019re not shopping."
+      },
+      {
+        "character_name": "Nicole",
+        "behavior_action": "Agrees to the date.",
+        "emotional_state": "Positive",
+        "speak": "Yes, I\u2019d like that."
+      },
+      {
+        "character_name": "Connell",
+        "behavior_action": "Finalizes the date details.",
+        "emotional_state": "Confident",
+        "speak": "How about a drink this week? What night is good for you?"
+      },
+      {
+        "character_name": "Nicole",
+        "behavior_action": "Suggests possible days for the date.",
+        "emotional_state": "Engaged",
+        "speak": "I can do Wednesday or Thursday night?"
+      },
+      {
+        "character_name": "Connell",
+        "behavior_action": "Confirms the date and asks for her preference in venues.",
+        "emotional_state": "Confident",
+        "speak": "I\u2019m free Thursday. Let\u2019s do eight. Are you more into cocktail lounges or dive bars?"
+      },
+      {
+        "character_name": "Nicole",
+        "behavior_action": "Shares her preference.",
+        "emotional_state": "Relaxed",
+        "speak": "Hmm. I like both, but I\u2019m down with cocktails."
+      },
+      {
+        "character_name": "Connell",
+        "behavior_action": "Takes Nicole's number and stays for a minute longer.",
+        "emotional_state": "Friendly",
+        "speak": "Okay, I\u2019ll find a good spot and I\u2019ll text you. What\u2019s your number? Hey, it was great meeting you. I can\u2019t wait till Thursday."
+      },
+      {
+        "character_name": "Nicole",
+        "behavior_action": "Responds positively and laughs nervously.",
+        "emotional_state": "Nervous but happy",
+        "speak": "Thanks! You, too. I mean, me too!"
+      },
+      {
+        "character_name": "Connell",
+        "behavior_action": "Compliments Nicole and says goodbye.",
+        "emotional_state": "Warm",
+        "speak": "You\u2019re adorable. Bye."
+      }
+    ],
+    "goals": [
+      {
+        "character_name": "Connell",
+        "character_goal": "To establish a connection with Nicole and arrange a date."
+      },
+      {
+        "character_name": "Nicole",
+        "character_goal": "To engage in a friendly conversation and agree to a date with Connell."
+      }
+    ],
+    "evaluation_guidance": "Consider how Connell approached Nicole and maintained the conversation. Reflect on the balance between sharing personal information and asking questions. Discuss the importance of confidence and humor in social interactions.",
+    "difficulty_score": 3,
+    "difficulty_level": "Medium",
+    "social_skills": [
+      "Communication",
+      "Building relationships",
+      "Initiative and Agency",
+      "Empathy and compassion"
+    ],
+    "scenario_types": {
+      "interaction_goal_types": [
+        "Exchange",
+        "Persuasion"
+      ],
+      "contextual_types": [
+        {
+          "category_name": "Public/Stranger",
+          "detail_name": "Store"
+        },
+        {
+          "category_name": "Romantic",
+          "detail_name": "Dating"
+        }
+      ]
+    },
+    "casel_competencies": [
+      "Social Awareness",
+      "Relationship Skills",
+      "Responsible Decision-Making"
+    ]
+  },
+  {
+    "title": "Friendship Circle Discussion on Upper Middle Class Aspirations",
+    "background": "The interior of a small, modest home in suburban Minneapolis. The living room is beige with furniture, carpet, and walls in shades of putty. A large flat-screen TV occupies one wall. Six participants, several clients, and the narrator are present, seated closely together in a line on the sofa, an armchair, and a folding chair.",
+    "description": "The narrator engages a friendship circle in a discussion about aspirations for the upper middle class. Debbie and Kim express their desire to be in the upper middle class, and the group discusses the benefits, such as financial security, a bigger house, and not worrying month to month. The conversation shifts to sacrifices required, including higher taxes, more time and effort, stress, and less free time due to bringing work home. The group contrasts their current situation, where they can 'clock in and clock out,' with the demands of upper-middle-class jobs that often require working from home and being on call. The narrator reflects on their own work-life balance and the sacrifices made for career success, questioning the worth of these sacrifices.",
+    "key_characters": [
+      {
+        "name": "Debbie",
+        "is_main": true,
+        "identity": "Female participant in the friendship circle, likely working-class.",
+        "personality": "Honest, straightforward, values financial security and stability.",
+        "experience": "Part of a friendship circle discussing aspirations and sacrifices for a better life."
+      },
+      {
+        "name": "Kim",
+        "is_main": true,
+        "identity": "Female participant in the friendship circle, likely working-class.",
+        "personality": "Open, reflective, values work-life balance and personal time.",
+        "experience": "Part of a friendship circle discussing aspirations and sacrifices for a better life."
+      },
+      {
+        "name": "Chelsea",
+        "is_main": false,
+        "identity": "Female participant in the friendship circle, likely working-class.",
+        "personality": "Practical, aware of trade-offs, values family time.",
+        "experience": "Part of a friendship circle discussing aspirations and sacrifices for a better life."
+      },
+      {
+        "name": "Annie",
+        "is_main": false,
+        "identity": "Female participant in the friendship circle, likely working-class.",
+        "personality": "Thoughtful, values free time and separation between work and home life.",
+        "experience": "Part of a friendship circle discussing aspirations and sacrifices for a better life."
+      },
+      {
+        "name": "Narrator",
+        "is_main": true,
+        "identity": "Facilitator of the discussion, likely upper-middle-class professional.",
+        "personality": "Reflective, empathetic, driven by work ethic.",
+        "experience": "Experienced in corporate America and entrepreneurship, conducting ethnographic interviews."
+      }
+    ],
+    "relations": [
+      {
+        "relation_type": "friendship circle",
+        "persons": [
+          "Debbie",
+          "Kim",
+          "Chelsea",
+          "Annie"
+        ]
+      },
+      {
+        "relation_type": "facilitator-participant",
+        "persons": [
+          "Narrator",
+          "Debbie"
+        ]
+      },
+      {
+        "relation_type": "facilitator-participant",
+        "persons": [
+          "Narrator",
+          "Kim"
+        ]
+      },
+      {
+        "relation_type": "facilitator-participant",
+        "persons": [
+          "Narrator",
+          "Chelsea"
+        ]
+      },
+      {
+        "relation_type": "facilitator-participant",
+        "persons": [
+          "Narrator",
+          "Annie"
+        ]
+      }
+    ],
+    "key_activities_or_interactions": [
+      {
+        "character_name": "Narrator",
+        "behavior_action": "Asked participants if they wanted to be in the upper middle class.",
+        "emotional_state": "Curious",
+        "speak": "Would you want to be in the upper middle class?"
+      },
+      {
+        "character_name": "Debbie",
+        "behavior_action": "Expressed desire to be in the upper middle class.",
+        "emotional_state": "Hopeful",
+        "speak": "Yeah, it would be nice."
+      },
+      {
+        "character_name": "Kim",
+        "behavior_action": "Agreed with Debbie's statement.",
+        "emotional_state": "Optimistic",
+        "speak": "Oh yeah."
+      },
+      {
+        "character_name": "Narrator",
+        "behavior_action": "Explored sacrifices required for upper middle class.",
+        "emotional_state": "Inquisitive",
+        "speak": "And what would you have to sacrifice in order to be upper middle class?"
+      },
+      {
+        "character_name": "Chelsea",
+        "behavior_action": "Identified taxes as a sacrifice.",
+        "emotional_state": "Practical",
+        "speak": "Taxes. More taxes."
+      },
+      {
+        "character_name": "Kim",
+        "behavior_action": "Mentioned time as a sacrifice.",
+        "emotional_state": "Reflective",
+        "speak": "Probably your time."
+      },
+      {
+        "character_name": "Annie",
+        "behavior_action": "Added time and effort as sacrifices.",
+        "emotional_state": "Thoughtful",
+        "speak": "Yeah, time and effort."
+      },
+      {
+        "character_name": "Chelsea",
+        "behavior_action": "Highlighted stress and family separation as sacrifices.",
+        "emotional_state": "Concerned",
+        "speak": "Stress, because your job\u2019s probably more stressful if you\u2019re making more money. Traveling, maybe away from your family."
+      },
+      {
+        "character_name": "Annie",
+        "behavior_action": "Discussed less free time due to bringing work home.",
+        "emotional_state": "Reflective",
+        "speak": "Totally, less free time because a lot of time those people bring their work home a lot more."
+      },
+      {
+        "character_name": "Kim",
+        "behavior_action": "Contrasted their current situation with upper-middle-class jobs.",
+        "emotional_state": "Content",
+        "speak": "Like, I\u2019m done. That\u2019s what\u2019s the good thing, I guess."
+      },
+      {
+        "character_name": "Narrator",
+        "behavior_action": "Reflected on their own work-life balance and sacrifices.",
+        "emotional_state": "Introspective"
+      }
+    ],
+    "goals": [
+      {
+        "character_name": "Debbie",
+        "character_goal": "To achieve financial security and stability by joining the upper middle class."
+      },
+      {
+        "character_name": "Kim",
+        "character_goal": "To gain financial security and maintain work-life balance while aspiring to the upper middle class."
+      },
+      {
+        "character_name": "Chelsea",
+        "character_goal": "To balance aspirations for financial security with maintaining family time and reducing stress."
+      },
+      {
+        "character_name": "Annie",
+        "character_goal": "To achieve financial security while preserving free time and separation between work and home life."
+      },
+      {
+        "character_name": "Narrator",
+        "character_goal": "To facilitate discussion and reflect on their own work-life balance and career sacrifices."
+      }
+    ],
+    "evaluation_guidance": "Consider the trade-offs discussed by the friendship circle. Reflect on your own aspirations and sacrifices for career success. How do you balance work and personal life?",
+    "difficulty_score": 3,
+    "difficulty_level": "Medium",
+    "social_skills": [
+      "Perspective-taking",
+      "Empathy and compassion",
+      "Analyzing situations and consequences",
+      "Reflecting on one's role to promote individual and collective well-being"
+    ],
+    "scenario_types": {
+      "interaction_goal_types": [
+        "Collaboration"
+      ],
+      "contextual_types": [
+        {
+          "category_name": "Friendship",
+          "detail_name": "casual talk"
+        }
+      ]
+    },
+    "casel_competencies": [
+      "Self-Awareness",
+      "Social Awareness",
+      "Responsible Decision-Making"
+    ]
+  },
+  {
+    "title": "Sixth Grade Playground Fight",
+    "background": "The scenario takes place at a school during recess, specifically on the playground after the protagonist accidentally kicks the back of another student's chair in the classroom. The time is during the school day, and the setting transitions from the classroom to the playground.",
+    "description": "The protagonist, a sensitive sixth grader, accidentally kicks the back of Casey Henderson's chair in the classroom. Casey turns around and challenges him to a fight after school. Fearful and conflicted, the protagonist agrees despite not wanting to fight. After school, almost every boy in the sixth grade gathers on the far side of the playground to watch the fight. Surrounded by a circle of boys chanting 'Fight! Fight! Fight!', the protagonist remembers his father's advice to throw the first punch but instead slaps Casey. A physical altercation ensues, with Casey, a wrestler, gaining the upper hand. The protagonist summons adrenaline and manages to throw Casey off. Casey retaliates by punching the protagonist above his left eye. The fight is interrupted when the principal, Mr. Tonnison, runs toward them, causing everyone to scatter. The protagonist runs home crying in shame and fear. At home, his mother helps him with his swollen eye, while his father, showing no sympathy, asks if he threw the first punch. The next day at school, the teacher, Ms. Jameson, pulls both boys into the hallway and instructs them to apologize to each other, which they do. The conflict appears resolved superficially but leaves lasting emotional effects on the protagonist.",
+    "key_characters": [
+      {
+        "name": "Protagonist",
+        "is_main": true,
+        "identity": "Sixth-grade boy, sensitive and emotional, attending school.",
+        "personality": "Empathic, sensitive, values peace, struggles with fear and social pressure.",
+        "experience": "Faced bullying, rejection, and loneliness in middle school; learned conflicting lessons about conflict resolution."
+      },
+      {
+        "name": "Casey Henderson",
+        "is_main": true,
+        "identity": "Sixth-grade boy, wrestler, attending the same school as the protagonist.",
+        "personality": "Assertive, confrontational, physically skilled, likely perceived as a 'bad kid' by peers.",
+        "experience": "Experienced physical altercations; likely accustomed to asserting dominance in social situations."
+      },
+      {
+        "name": "Mr. Tonnison",
+        "is_main": false,
+        "identity": "School principal, male, authority figure.",
+        "personality": "Authoritative, decisive, values discipline and order.",
+        "experience": "Experienced in managing school conflicts and enforcing rules."
+      },
+      {
+        "name": "Ms. Jameson",
+        "is_main": false,
+        "identity": "School teacher, female, authority figure.",
+        "personality": "Pragmatic, conflict-avoidant, values quick resolutions.",
+        "experience": "Experienced in handling student disputes and maintaining classroom harmony."
+      },
+      {
+        "name": "Protagonist's Mother",
+        "is_main": false,
+        "identity": "Female, parent of the protagonist.",
+        "personality": "Caring, supportive, empathetic.",
+        "experience": "Experienced in nurturing and comforting her child during emotional distress."
+      },
+      {
+        "name": "Protagonist's Father",
+        "is_main": false,
+        "identity": "Male, parent of the protagonist.",
+        "personality": "Stoic, unsympathetic, values toughness and resilience.",
+        "experience": "Experienced in imparting traditional values about conflict and masculinity."
+      }
+    ],
+    "relations": [
+      {
+        "relation_type": "classmates",
+        "persons": [
+          "Protagonist",
+          "Casey Henderson"
+        ]
+      },
+      {
+        "relation_type": "teacher-student",
+        "persons": [
+          "Ms. Jameson",
+          "Protagonist"
+        ]
+      },
+      {
+        "relation_type": "teacher-student",
+        "persons": [
+          "Ms. Jameson",
+          "Casey Henderson"
+        ]
+      },
+      {
+        "relation_type": "parent-child",
+        "persons": [
+          "Protagonist's Mother",
+          "Protagonist"
+        ]
+      },
+      {
+        "relation_type": "parent-child",
+        "persons": [
+          "Protagonist's Father",
+          "Protagonist"
+        ]
+      }
+    ],
+    "key_activities_or_interactions": [
+      {
+        "character_name": "Protagonist",
+        "behavior_action": "Accidentally kicks the back of Casey's chair.",
+        "emotional_state": "Fearful and anxious."
+      },
+      {
+        "character_name": "Casey Henderson",
+        "behavior_action": "Challenges the protagonist to a fight after school.",
+        "emotional_state": "Confrontational and assertive.",
+        "speak": "Do you want to fight after school?"
+      },
+      {
+        "character_name": "Protagonist",
+        "behavior_action": "Agrees to the fight despite inner conflict.",
+        "emotional_state": "Fearful and pressured."
+      },
+      {
+        "character_name": "Protagonist",
+        "behavior_action": "Slaps Casey during the fight.",
+        "emotional_state": "Nervous and reactive."
+      },
+      {
+        "character_name": "Casey Henderson",
+        "behavior_action": "Punches the protagonist above the left eye.",
+        "emotional_state": "Angry and aggressive."
+      },
+      {
+        "character_name": "Mr. Tonnison",
+        "behavior_action": "Runs toward the fight to intervene.",
+        "emotional_state": "Determined and authoritative."
+      },
+      {
+        "character_name": "Protagonist",
+        "behavior_action": "Runs home crying.",
+        "emotional_state": "Ashamed and fearful."
+      },
+      {
+        "character_name": "Protagonist's Mother",
+        "behavior_action": "Helps the protagonist with his swollen eye.",
+        "emotional_state": "Concerned and empathetic."
+      },
+      {
+        "character_name": "Protagonist's Father",
+        "behavior_action": "Asks if the protagonist threw the first punch.",
+        "emotional_state": "Unconcerned and stoic.",
+        "speak": "Well, did you throw the first punch?"
+      },
+      {
+        "character_name": "Ms. Jameson",
+        "behavior_action": "Instructs the boys to apologize.",
+        "emotional_state": "Pragmatic and neutral.",
+        "speak": "I heard you two got in a fight yesterday. Well, say you\u2019re sorry."
+      },
+      {
+        "character_name": "Protagonist",
+        "behavior_action": "Apologizes to Casey.",
+        "emotional_state": "Reluctant and ashamed.",
+        "speak": "I\u2019m sorry."
+      },
+      {
+        "character_name": "Casey Henderson",
+        "behavior_action": "Apologizes to the protagonist.",
+        "emotional_state": "Neutral.",
+        "speak": "I\u2019m sorry."
+      }
+    ],
+    "goals": [
+      {
+        "character_name": "Protagonist",
+        "character_goal": "To avoid humiliation and social rejection by agreeing to the fight."
+      },
+      {
+        "character_name": "Casey Henderson",
+        "character_goal": "To assert dominance and confront the protagonist."
+      },
+      {
+        "character_name": "Ms. Jameson",
+        "character_goal": "To resolve the conflict quickly and restore classroom harmony."
+      },
+      {
+        "character_name": "Protagonist's Mother",
+        "character_goal": "To comfort and care for her son after the fight."
+      },
+      {
+        "character_name": "Protagonist's Father",
+        "character_goal": "To instill toughness and resilience in his son."
+      }
+    ],
+    "evaluation_guidance": "Students may reflect on the emotional impact of peer pressure, the consequences of physical conflict, and the effectiveness of superficial apologies in resolving deeper issues.",
+    "difficulty_score": 4,
+    "difficulty_level": "Hard",
+    "social_skills": [
+      "Impulse control",
+      "Resolving conflicts",
+      "Emotion regulation",
+      "Perspective-taking"
+    ],
+    "scenario_types": {
+      "interaction_goal_types": [
+        "Competition",
+        "Accommodation"
+      ],
+      "contextual_types": [
+        {
+          "category_name": "Education",
+          "detail_name": "Classroom"
+        },
+        {
+          "category_name": "Education",
+          "detail_name": "peer discussion"
+        }
+      ]
+    },
+    "casel_competencies": [
+      "Self-Management",
+      "Social Awareness",
+      "Relationship Skills",
+      "Responsible Decision-Making"
+    ]
+  },
+  {
+    "title": "Conflict Resolution Between Sameer and Kevin",
+    "background": "Two children, Sameer and Kevin, are in a shared environment where they are disputing over the use of a controller. The setting is likely indoors, such as a home or classroom, during leisure time.",
+    "description": "Sameer and Kevin are upset because they both want to use the controller. They take turns expressing their feelings about the problem, following rules of respectful listening and empathy. Sameer shares that he feels ticked because he never gets a turn, while Kevin expresses that he is mad and wants to use the controller too. Each child paraphrases the other's feelings to ensure understanding. They brainstorm solutions, such as picking straws, making a rule that the guest always chooses, or rotating turns. They narrow down the options by eliminating impractical ones, like using straws when unavailable or applying the guest rule outside the house. Finally, they decide on rotating turns as the best solution and shake hands to agree on it.",
+    "key_characters": [
+      {
+        "name": "Sameer",
+        "is_main": true,
+        "identity": "A young boy, likely school-aged, involved in a dispute over a controller.",
+        "personality": "Assertive and willing to express his feelings, values fairness and resolution.",
+        "experience": "Likely has experience with sharing and conflict resolution in peer settings."
+      },
+      {
+        "name": "Kevin",
+        "is_main": true,
+        "identity": "A young boy, likely school-aged, involved in a dispute over a controller.",
+        "personality": "Direct in expressing his emotions, values fairness and resolution.",
+        "experience": "Likely has experience with sharing and conflict resolution in peer settings."
+      }
+    ],
+    "relations": [
+      {
+        "relation_type": "peer relationship",
+        "persons": [
+          "Sameer",
+          "Kevin"
+        ]
+      }
+    ],
+    "key_activities_or_interactions": [
+      {
+        "character_name": "Sameer",
+        "behavior_action": "Expresses his feelings about the problem.",
+        "emotional_state": "Ticked",
+        "speak": "I\u2019m ticked because I never get a turn."
+      },
+      {
+        "character_name": "Kevin",
+        "behavior_action": "Expresses his feelings about the problem.",
+        "emotional_state": "Mad",
+        "speak": "Well, I\u2019m mad. I want to use the controller, too."
+      },
+      {
+        "character_name": "Sameer",
+        "behavior_action": "Paraphrases Kevin's feelings.",
+        "speak": "So, you\u2019re upset because you think you don\u2019t get a turn."
+      },
+      {
+        "character_name": "Kevin",
+        "behavior_action": "Paraphrases Sameer's feelings.",
+        "speak": "And you feel the same way and think I don\u2019t let you choose."
+      },
+      {
+        "character_name": "Sameer",
+        "behavior_action": "Suggests brainstorming solutions.",
+        "speak": "We could pick straws to see who goes first."
+      },
+      {
+        "character_name": "Kevin",
+        "behavior_action": "Suggests brainstorming solutions.",
+        "speak": "Maybe we could make a rule that the guest always chooses."
+      },
+      {
+        "character_name": "Sameer",
+        "behavior_action": "Suggests brainstorming solutions.",
+        "speak": "We could rotate so everyone gets a turn."
+      },
+      {
+        "character_name": "Sameer",
+        "behavior_action": "Eliminates impractical options.",
+        "speak": "Let\u2019s not do the rule that a guest always chooses because we may be on the playground and not in our houses."
+      },
+      {
+        "character_name": "Kevin",
+        "behavior_action": "Eliminates impractical options.",
+        "speak": "We may not have straws with us either."
+      },
+      {
+        "character_name": "Sameer",
+        "behavior_action": "Proposes final solution and seeks agreement.",
+        "speak": "So the only one that\u2019s left is rotating turns. We just need to remember who chose last. Is that okay with you?"
+      },
+      {
+        "character_name": "Kevin",
+        "behavior_action": "Agrees to the final solution.",
+        "speak": "Yep, let\u2019s shake on it."
+      }
+    ],
+    "goals": [
+      {
+        "character_name": "Sameer",
+        "character_goal": "To ensure fairness and get a turn using the controller."
+      },
+      {
+        "character_name": "Kevin",
+        "character_goal": "To ensure fairness and get a turn using the controller."
+      }
+    ],
+    "evaluation_guidance": "Students can reflect on how Sameer and Kevin expressed their feelings, listened to each other, and collaboratively found a solution. Discuss how empathy and respectful communication contributed to resolving the conflict.",
+    "difficulty_score": 3,
+    "difficulty_level": "Medium",
+    "social_skills": [
+      "Empathy and compassion",
+      "Communication",
+      "Resolving conflicts",
+      "Teamwork and working cooperatively"
+    ],
+    "scenario_types": {
+      "interaction_goal_types": [
+        "Negotiation",
+        "Collaboration"
+      ],
+      "contextual_types": [
+        {
+          "category_name": "Friendship",
+          "detail_name": "Informal"
+        },
+        {
+          "category_name": "Education",
+          "detail_name": "Classroom"
+        }
+      ]
+    },
+    "casel_competencies": [
+      "Social Awareness",
+      "Relationship Skills",
+      "Responsible Decision-Making"
+    ]
+  },
+  {
+    "title": "Fear Class Introduction and Sharing",
+    "background": "The scenario takes place in a classroom setting where a fear class is about to begin. The instructor is waiting for the students to arrive, and the atmosphere is initially tense as students enter and sit apart from one another.",
+    "description": "The instructor begins the fear class by asking each student to share what they are having difficulty confronting in life. As each student shares their story, the tension in the room fades, and a sense of warmth and camaraderie develops. Students realize they are not alone in their fears and begin to connect on a human level.",
+    "key_characters": [
+      {
+        "name": "Instructor",
+        "is_main": true,
+        "identity": "Experienced teacher of fear classes, likely middle-aged, gender unspecified.",
+        "personality": "Empathetic, encouraging, and observant; values personal growth and connection.",
+        "experience": "Has taught fear classes multiple times and learned from students' shared experiences."
+      },
+      {
+        "name": "Don",
+        "is_main": false,
+        "identity": "Male, career professional for fourteen years, aspiring artist.",
+        "personality": "Creative and ambitious but hesitant to pursue his dream.",
+        "experience": "Has spent over a decade in a stable career but feels unfulfilled and wants to transition to art."
+      },
+      {
+        "name": "Mary Alice",
+        "is_main": false,
+        "identity": "Female, actress.",
+        "personality": "Talented but struggles with procrastination and self-doubt.",
+        "experience": "Has acting experience but avoids auditions due to fear."
+      },
+      {
+        "name": "Sarah",
+        "is_main": false,
+        "identity": "Female, married for fifteen years.",
+        "personality": "Determined but conflicted about leaving her marriage.",
+        "experience": "Has been in a long-term marriage but feels the need to move on."
+      },
+      {
+        "name": "Teddy",
+        "is_main": false,
+        "identity": "Male, 32 years old.",
+        "personality": "Youthful but anxious about aging.",
+        "experience": "Struggles with the fear of aging despite being relatively young."
+      },
+      {
+        "name": "Jean",
+        "is_main": false,
+        "identity": "Female, senior citizen.",
+        "personality": "Assertive but frustrated with being treated dismissively.",
+        "experience": "Wants to confront her doctor for treating her like a child and not giving straight answers."
+      },
+      {
+        "name": "Patti",
+        "is_main": false,
+        "identity": "Female, business owner.",
+        "personality": "Ambitious but hesitant to take risks.",
+        "experience": "Wants to expand her business but struggles to take the next step."
+      },
+      {
+        "name": "Rebecca",
+        "is_main": false,
+        "identity": "Female, married.",
+        "personality": "Thoughtful but hesitant to confront her husband.",
+        "experience": "Wants to address issues in her marriage but fears confrontation."
+      },
+      {
+        "name": "Kevin",
+        "is_main": false,
+        "identity": "Male, single.",
+        "personality": "Shy and fearful of rejection.",
+        "experience": "Struggles to ask women out due to fear of rejection."
+      },
+      {
+        "name": "Laurie",
+        "is_main": false,
+        "identity": "Female, affluent.",
+        "personality": "Reflective but dissatisfied despite having material success.",
+        "experience": "Feels unhappy despite having everything one could possibly want in life."
+      },
+      {
+        "name": "Richard",
+        "is_main": false,
+        "identity": "Male, retired.",
+        "personality": "Despondent and fearful of being useless.",
+        "experience": "Feels his life is over after retirement and struggles with a sense of purpose."
+      }
+    ],
+    "relations": [
+      {
+        "relation_type": "Instructor-Student",
+        "persons": [
+          "Instructor",
+          "Don"
+        ]
+      },
+      {
+        "relation_type": "Instructor-Student",
+        "persons": [
+          "Instructor",
+          "Mary Alice"
+        ]
+      },
+      {
+        "relation_type": "Instructor-Student",
+        "persons": [
+          "Instructor",
+          "Sarah"
+        ]
+      },
+      {
+        "relation_type": "Instructor-Student",
+        "persons": [
+          "Instructor",
+          "Teddy"
+        ]
+      },
+      {
+        "relation_type": "Instructor-Student",
+        "persons": [
+          "Instructor",
+          "Jean"
+        ]
+      },
+      {
+        "relation_type": "Instructor-Student",
+        "persons": [
+          "Instructor",
+          "Patti"
+        ]
+      },
+      {
+        "relation_type": "Instructor-Student",
+        "persons": [
+          "Instructor",
+          "Rebecca"
+        ]
+      },
+      {
+        "relation_type": "Instructor-Student",
+        "persons": [
+          "Instructor",
+          "Kevin"
+        ]
+      },
+      {
+        "relation_type": "Instructor-Student",
+        "persons": [
+          "Instructor",
+          "Laurie"
+        ]
+      },
+      {
+        "relation_type": "Instructor-Student",
+        "persons": [
+          "Instructor",
+          "Richard"
+        ]
+      }
+    ],
+    "key_activities_or_interactions": [
+      {
+        "character_name": "Instructor",
+        "behavior_action": "Asked students to share their difficulties.",
+        "emotional_state": "Calm and empathetic.",
+        "speak": "Please share what you are having difficulty confronting in life."
+      },
+      {
+        "character_name": "Don",
+        "behavior_action": "Shared his desire to change careers and become an artist.",
+        "emotional_state": "Nervous but hopeful.",
+        "speak": "I want to change my career of fourteen years and follow my dream of becoming an artist."
+      },
+      {
+        "character_name": "Mary Alice",
+        "behavior_action": "Shared her struggle with attending auditions.",
+        "emotional_state": "Frustrated and self-reflective.",
+        "speak": "I want to discover why I find all kinds of excuses for not attending auditions."
+      },
+      {
+        "character_name": "Sarah",
+        "behavior_action": "Shared her desire to leave her marriage.",
+        "emotional_state": "Conflicted and determined.",
+        "speak": "I want to leave a marriage of fifteen years."
+      },
+      {
+        "character_name": "Teddy",
+        "behavior_action": "Expressed his fear of aging.",
+        "emotional_state": "Anxious.",
+        "speak": "I want to get over my fear of aging. I\u2019m all of thirty-two."
+      },
+      {
+        "character_name": "Jean",
+        "behavior_action": "Shared her frustration with her doctor.",
+        "emotional_state": "Frustrated and assertive.",
+        "speak": "I want to confront my doctor; he treats me like a child and never gives me any straight answers."
+      },
+      {
+        "character_name": "Patti",
+        "behavior_action": "Shared her hesitation to expand her business.",
+        "emotional_state": "Hesitant and ambitious.",
+        "speak": "I want to expand my business but can\u2019t make the required leap to the next step."
+      },
+      {
+        "character_name": "Rebecca",
+        "behavior_action": "Shared her desire to confront her husband.",
+        "emotional_state": "Hesitant and thoughtful.",
+        "speak": "I want to confront my husband with things that have been bothering me."
+      },
+      {
+        "character_name": "Kevin",
+        "behavior_action": "Shared his fear of rejection.",
+        "emotional_state": "Shy and fearful.",
+        "speak": "I want to get over a fear of rejection that makes it very difficult to ask a woman for a date."
+      },
+      {
+        "character_name": "Laurie",
+        "behavior_action": "Shared her dissatisfaction despite material success.",
+        "emotional_state": "Reflective and unhappy.",
+        "speak": "I want to know why I am unhappy when I have everything one could possibly want in life."
+      },
+      {
+        "character_name": "Richard",
+        "behavior_action": "Shared his fear of feeling useless after retirement.",
+        "emotional_state": "Despondent and fearful.",
+        "speak": "I feel useless. I fear my life is over."
+      }
+    ],
+    "goals": [
+      {
+        "character_name": "Instructor",
+        "character_goal": "To help students confront their fears and take control of their lives."
+      },
+      {
+        "character_name": "Don",
+        "character_goal": "To transition from his career to becoming an artist."
+      },
+      {
+        "character_name": "Mary Alice",
+        "character_goal": "To overcome excuses and attend auditions."
+      },
+      {
+        "character_name": "Sarah",
+        "character_goal": "To leave her marriage and move forward."
+      },
+      {
+        "character_name": "Teddy",
+        "character_goal": "To overcome his fear of aging."
+      },
+      {
+        "character_name": "Jean",
+        "character_goal": "To confront her doctor and demand respect."
+      },
+      {
+        "character_name": "Patti",
+        "character_goal": "To expand her business and take the next step."
+      },
+      {
+        "character_name": "Rebecca",
+        "character_goal": "To confront her husband about unresolved issues."
+      },
+      {
+        "character_name": "Kevin",
+        "character_goal": "To overcome his fear of rejection and ask women out."
+      },
+      {
+        "character_name": "Laurie",
+        "character_goal": "To understand and address her unhappiness."
+      },
+      {
+        "character_name": "Richard",
+        "character_goal": "To find purpose and overcome feelings of uselessness."
+      }
+    ],
+    "evaluation_guidance": "Consider how the students' openness and shared experiences helped reduce tension and fostered connection. Reflect on how sharing fears can lead to personal growth and mutual understanding.",
+    "difficulty_score": 3,
+    "difficulty_level": "Medium",
+    "social_skills": [
+      "Empathy and compassion",
+      "Perspective-taking",
+      "Building relationships",
+      "Communication"
+    ],
+    "scenario_types": {
+      "interaction_goal_types": [
+        "Collaboration"
+      ],
+      "contextual_types": [
+        {
+          "category_name": "Education",
+          "detail_name": "Classroom"
+        }
+      ]
+    },
+    "casel_competencies": [
+      "Self-Awareness",
+      "Social Awareness",
+      "Relationship Skills"
+    ]
+  },
+  {
+    "title": "Tension and Positivity During Training Camp",
+    "background": "The scenario takes place during a grueling training camp for a sports team, one week before their first game of the season. The players are physically tired, mentally stressed, and emotionally strained. The setting is a practice field where the team is conducting drills and scrimmages.",
+    "description": "During a particularly intense practice session, the players start strong but gradually become frustrated and irritable as mistakes mount and competition heats up. This culminates in a physical altercation between two players, Rogers and Hammer, involving pushing, shoving, and punches. The coaches and support staff intervene to break up the fight. After calming the players, Coach Richie gathers the team in a circle and delivers a motivational speech about staying positive together, emphasizing the importance of collective positivity and belief. He shares stories of other teams overcoming adversity through positivity, and Coach Amy adds her own anecdotes about professional and college teams succeeding by eliminating negativity. The session ends with the players reconciling, picking up books and cheat sheets on positivity, and preparing for their first game.",
+    "key_characters": [
+      {
+        "name": "Coach Richie",
+        "is_main": true,
+        "identity": "Male sports coach, leader of the team, experienced in motivational speaking.",
+        "personality": "Supportive, motivational, empathetic, focused on team unity and positivity.",
+        "experience": "Years of coaching experience, skilled in team management and emotional resilience."
+      },
+      {
+        "name": "Coach Amy",
+        "is_main": true,
+        "identity": "Female assistant coach, experienced in working with professional and college teams.",
+        "personality": "Encouraging, insightful, direct communicator, values positivity and consistency.",
+        "experience": "Worked with NBA, MLB, and college football teams, skilled in overcoming adversity and fostering team spirit."
+      },
+      {
+        "name": "Rogers",
+        "is_main": false,
+        "identity": "Male player on the team, physically strong, competitive.",
+        "personality": "Competitive, emotional, prone to frustration under pressure.",
+        "experience": "Experienced athlete, skilled in physical sports but struggles with emotional regulation."
+      },
+      {
+        "name": "Hammer",
+        "is_main": false,
+        "identity": "Male player on the team, physically strong, competitive.",
+        "personality": "Competitive, emotional, prone to frustration under pressure.",
+        "experience": "Experienced athlete, skilled in physical sports but struggles with emotional regulation."
+      },
+      {
+        "name": "Duff",
+        "is_main": false,
+        "identity": "Male player on the team, energetic and supportive.",
+        "personality": "Optimistic, humorous, team-oriented.",
+        "experience": "Skilled athlete, known for uplifting teammates during tough times."
+      },
+      {
+        "name": "H",
+        "is_main": false,
+        "identity": "Male player on the team, energetic and supportive.",
+        "personality": "Optimistic, humorous, team-oriented.",
+        "experience": "Skilled athlete, known for uplifting teammates during tough times."
+      },
+      {
+        "name": "Teddy",
+        "is_main": false,
+        "identity": "Male player on the team, physically strong and competitive.",
+        "personality": "Supportive, team-oriented, focused on improvement.",
+        "experience": "Experienced athlete, skilled in teamwork and resilience."
+      },
+      {
+        "name": "Bussman",
+        "is_main": false,
+        "identity": "Male player on the team, physically strong and competitive.",
+        "personality": "Supportive, team-oriented, focused on improvement.",
+        "experience": "Experienced athlete, skilled in teamwork and resilience."
+      },
+      {
+        "name": "Antonio",
+        "is_main": false,
+        "identity": "Male player on the team, supportive and encouraging.",
+        "personality": "Empathetic, uplifting, values teamwork.",
+        "experience": "Skilled athlete, known for encouraging teammates during challenges."
+      },
+      {
+        "name": "Tim",
+        "is_main": false,
+        "identity": "Male player on the team, focused on improvement.",
+        "personality": "Determined, hardworking, values support from teammates.",
+        "experience": "Experienced athlete, skilled in perseverance and overcoming self-doubt."
+      },
+      {
+        "name": "Joey",
+        "is_main": false,
+        "identity": "Male player on the team, supportive and encouraging.",
+        "personality": "Empathetic, uplifting, values teamwork.",
+        "experience": "Skilled athlete, known for encouraging teammates during challenges."
+      },
+      {
+        "name": "Tills",
+        "is_main": false,
+        "identity": "Male player on the team, energetic and supportive.",
+        "personality": "Optimistic, humorous, team-oriented.",
+        "experience": "Skilled athlete, known for uplifting teammates during tough times."
+      }
+    ],
+    "relations": [
+      {
+        "relation_type": "Teammates",
+        "persons": [
+          "Rogers",
+          "Hammer",
+          "Duff",
+          "H",
+          "Teddy",
+          "Bussman",
+          "Antonio",
+          "Tim",
+          "Joey",
+          "Tills"
+        ]
+      },
+      {
+        "relation_type": "Coach-player",
+        "persons": [
+          "Coach Richie",
+          "Rogers"
+        ]
+      },
+      {
+        "relation_type": "Coach-player",
+        "persons": [
+          "Coach Richie",
+          "Hammer"
+        ]
+      },
+      {
+        "relation_type": "Coach-player",
+        "persons": [
+          "Coach Amy",
+          "Duff"
+        ]
+      }
+    ],
+    "key_activities_or_interactions": [
+      {
+        "character_name": "Rogers",
+        "behavior_action": "Engages in a physical altercation with Hammer.",
+        "emotional_state": "Frustrated and irritable."
+      },
+      {
+        "character_name": "Hammer",
+        "behavior_action": "Engages in a physical altercation with Rogers.",
+        "emotional_state": "Frustrated and irritable."
+      },
+      {
+        "character_name": "Coach Richie",
+        "behavior_action": "Delivers a motivational speech to the team.",
+        "emotional_state": "Determined and empathetic.",
+        "speak": "Listen, men. I'm not happy this happened. But in a way I'm glad it did. It's a great lesson for us..."
+      },
+      {
+        "character_name": "Coach Amy",
+        "behavior_action": "Shares anecdotes about professional and college teams overcoming adversity.",
+        "emotional_state": "Encouraging and insightful.",
+        "speak": "Several years ago I was working with an NBA team, and they started the season 11\u201330..."
+      },
+      {
+        "character_name": "Rogers",
+        "behavior_action": "Shakes hands with Hammer after reconciling.",
+        "emotional_state": "Calm and reconciled."
+      },
+      {
+        "character_name": "Hammer",
+        "behavior_action": "Shakes hands with Rogers after reconciling.",
+        "emotional_state": "Calm and reconciled."
+      },
+      {
+        "character_name": "Teddy",
+        "behavior_action": "Gives Bussman a bro hug.",
+        "emotional_state": "Supportive and positive."
+      },
+      {
+        "character_name": "Bussman",
+        "behavior_action": "Gives Teddy a bro hug.",
+        "emotional_state": "Supportive and positive."
+      },
+      {
+        "character_name": "Tills",
+        "behavior_action": "Pats teammates on the back.",
+        "emotional_state": "Energetic and uplifting."
+      },
+      {
+        "character_name": "Duff",
+        "behavior_action": "Laughs about throwing and missing punches.",
+        "emotional_state": "Humorous and lighthearted."
+      },
+      {
+        "character_name": "H",
+        "behavior_action": "Laughs about throwing and missing punches.",
+        "emotional_state": "Humorous and lighthearted."
+      }
+    ],
+    "goals": [
+      {
+        "character_name": "Coach Richie",
+        "character_goal": "To teach the team the importance of staying positive together and overcoming adversity."
+      },
+      {
+        "character_name": "Coach Amy",
+        "character_goal": "To reinforce the message of positivity and share practical strategies for staying positive."
+      },
+      {
+        "character_name": "Rogers",
+        "character_goal": "To reconcile with Hammer and contribute positively to the team."
+      },
+      {
+        "character_name": "Hammer",
+        "character_goal": "To reconcile with Rogers and contribute positively to the team."
+      },
+      {
+        "character_name": "Duff",
+        "character_goal": "To uplift teammates and maintain a positive atmosphere."
+      },
+      {
+        "character_name": "H",
+        "character_goal": "To uplift teammates and maintain a positive atmosphere."
+      },
+      {
+        "character_name": "Teddy",
+        "character_goal": "To support teammates and foster team unity."
+      },
+      {
+        "character_name": "Bussman",
+        "character_goal": "To support teammates and foster team unity."
+      },
+      {
+        "character_name": "Tills",
+        "character_goal": "To energize and uplift teammates."
+      }
+    ],
+    "evaluation_guidance": "Reflect on the importance of staying positive in challenging situations. Discuss how collective positivity can impact team dynamics and individual performance.",
+    "difficulty_score": 4,
+    "difficulty_level": "Hard",
+    "social_skills": [
+      "Emotion regulation",
+      "Impulse control",
+      "Stress management",
+      "Teamwork and working cooperatively",
+      "Resolving conflicts",
+      "Leadership"
+    ],
+    "scenario_types": {
+      "interaction_goal_types": [
+        "Collaboration",
+        "Other"
+      ],
+      "contextual_types": [
+        {
+          "category_name": "Other",
+          "detail_name": "Other"
+        }
+      ]
+    },
+    "casel_competencies": [
+      "Self-Awareness",
+      "Self-Management",
+      "Social Awareness",
+      "Relationship Skills",
+      "Responsible Decision-Making"
+    ]
+  },
+  {
+    "title": "Coach Richie Motivates Team to Commit to Giving Their Best",
+    "background": "After a day off and a few days of practice, the team gathered in the meeting room before their first game. Coach Richie noticed the players were making mistakes, feeling sluggish, and not giving their best effort.",
+    "description": "Coach Richie addressed the team about their lack of effort and consistency. He asked the players why they weren't working harder, leading to an honest discussion about their physical and mental struggles. Coach Richie emphasized the importance of caring more to push through challenges and give their best effort. He explained that giving their best requires effort, consistency, and discipline, driven by devotion. The team responded positively, shouting their commitment to care more and give their best.",
+    "key_characters": [
+      {
+        "name": "Coach Richie",
+        "is_main": true,
+        "identity": "Male, sports coach, leading a team before their first game.",
+        "personality": "Encouraging, motivational, insightful, values discipline and consistency.",
+        "experience": "Experienced coach, skilled in motivating teams and addressing challenges."
+      },
+      {
+        "name": "Cons",
+        "is_main": false,
+        "identity": "Team member, male.",
+        "personality": "Curious, introspective, seeks understanding.",
+        "experience": "Participates in team discussions and training."
+      },
+      {
+        "name": "H",
+        "is_main": false,
+        "identity": "Team member, male.",
+        "personality": "Honest, straightforward, physically struggling.",
+        "experience": "Experienced physical fatigue during training camp."
+      },
+      {
+        "name": "Tim",
+        "is_main": false,
+        "identity": "Team member, male.",
+        "personality": "Reflective, open about mental struggles.",
+        "experience": "Struggles with sluggishness and mindset challenges."
+      },
+      {
+        "name": "Rock",
+        "is_main": false,
+        "identity": "Team member, male.",
+        "personality": "Focused, values effort.",
+        "experience": "Contributes to team discussions about effort."
+      },
+      {
+        "name": "Tills",
+        "is_main": false,
+        "identity": "Team member, male.",
+        "personality": "Inquisitive, detail-oriented, future coach potential.",
+        "experience": "Engages deeply with Coach Richie\u2019s teachings."
+      }
+    ],
+    "relations": [
+      {
+        "relation_type": "coach-team",
+        "persons": [
+          "Coach Richie",
+          "Cons",
+          "H",
+          "Tim",
+          "Rock",
+          "Tills"
+        ]
+      }
+    ],
+    "key_activities_or_interactions": [
+      {
+        "character_name": "Coach Richie",
+        "behavior_action": "Asked the team why they weren't working harder.",
+        "emotional_state": "Motivational",
+        "speak": "How many of you believe you can work harder than you already are?"
+      },
+      {
+        "character_name": "Cons",
+        "behavior_action": "Responded to Coach Richie\u2019s question.",
+        "emotional_state": "Curious",
+        "speak": "Why aren't we?"
+      },
+      {
+        "character_name": "H",
+        "behavior_action": "Shared physical struggles.",
+        "emotional_state": "Honest",
+        "speak": "Because we are beat up from training camp. I mean, my legs feel like cement these days."
+      },
+      {
+        "character_name": "Tim",
+        "behavior_action": "Shared mental struggles.",
+        "emotional_state": "Reflective",
+        "speak": "I think it's my mindset. I feel a little sluggish, and then my mind starts thinking about how sluggish I feel and then, I don't know, I just don't feel light. I feel heavy. Like everything is harder than it should be."
+      },
+      {
+        "character_name": "Coach Richie",
+        "behavior_action": "Explained the importance of caring more and giving their best.",
+        "emotional_state": "Encouraging",
+        "speak": "To work harder, you have to care more. If you care more, you will push through the soreness. If you care more, you will give your all even when you feel like you don't have your all."
+      },
+      {
+        "character_name": "Rock",
+        "behavior_action": "Defined giving their best as effort.",
+        "emotional_state": "Focused",
+        "speak": "It means effort."
+      },
+      {
+        "character_name": "Coach Richie",
+        "behavior_action": "Explained the importance of consistency and discipline.",
+        "emotional_state": "Motivational",
+        "speak": "Giving your best requires consistency. You need to be consistent with your actions, habits, rituals, and routines."
+      },
+      {
+        "character_name": "Tills",
+        "behavior_action": "Asked for clarification on consistency.",
+        "emotional_state": "Inquisitive",
+        "speak": "What does it mean to be consistent?"
+      },
+      {
+        "character_name": "Coach Richie",
+        "behavior_action": "Explained consistency and discipline.",
+        "emotional_state": "Encouraging",
+        "speak": "Consistency refers to the act of repeatedly performing an action over time. Discipline is your will to actually do it, even when you don't feel like it."
+      },
+      {
+        "character_name": "Tim",
+        "behavior_action": "Asked how to become more disciplined and consistent.",
+        "emotional_state": "Reflective",
+        "speak": "How do I become more disciplined and consistent?"
+      },
+      {
+        "character_name": "Coach Richie",
+        "behavior_action": "Explained devotion as the driving force behind discipline and consistency.",
+        "emotional_state": "Insightful",
+        "speak": "When you are devoted to something, you will have more discipline. Devotion gives you power. It causes you to care more."
+      }
+    ],
+    "goals": [
+      {
+        "character_name": "Coach Richie",
+        "character_goal": "Motivate the team to care more and commit to giving their best effort consistently."
+      },
+      {
+        "character_name": "Cons",
+        "character_goal": "Understand why the team isn\u2019t working harder."
+      },
+      {
+        "character_name": "H",
+        "character_goal": "Express physical struggles and contribute to the discussion."
+      },
+      {
+        "character_name": "Tim",
+        "character_goal": "Understand how to overcome sluggishness and improve discipline and consistency."
+      },
+      {
+        "character_name": "Rock",
+        "character_goal": "Contribute to the discussion about effort."
+      },
+      {
+        "character_name": "Tills",
+        "character_goal": "Understand the meaning of consistency and contribute to the discussion."
+      }
+    ],
+    "evaluation_guidance": "Reflect on the importance of caring more, consistency, and discipline in achieving goals. Discuss how devotion can drive commitment and effort.",
+    "difficulty_score": 4,
+    "difficulty_level": "Hard",
+    "social_skills": [
+      "Self-discipline and motivation",
+      "Teamwork and working cooperatively",
+      "Growth mindset",
+      "Communication"
+    ],
+    "scenario_types": {
+      "interaction_goal_types": [
+        "Collaboration",
+        "Persuasion"
+      ],
+      "contextual_types": [
+        {
+          "category_name": "Workplace",
+          "detail_name": "meetings"
+        }
+      ]
+    },
+    "casel_competencies": [
+      "Self-Management",
+      "Relationship Skills",
+      "Responsible Decision-Making"
+    ]
+  },
+  {
+    "title": "Expressing Unpleasant Feelings in a Group Setting",
+    "background": "The scenario takes place in a social skills training group session led by a group leader. The session is focused on teaching the skill of expressing unpleasant feelings constructively. The group is seated in a room with a posterboard and flipchart available for visual aids. The leader is engaging the group members in a discussion to establish a rationale for the skill.",
+    "description": "The leader begins by introducing the topic of expressing unpleasant feelings and asks the group members to provide examples of unpleasant feelings. Bob mentions 'mad,' Juanita suggests 'scared,' Lionel says 'boredom,' and Yoko shares 'pissed off.' The leader writes these examples on the posterboard and discusses the consequences of holding unpleasant feelings inside or expressing them destructively. The leader then asks the group members about the advantages of expressing unpleasant feelings constructively. Juanita suggests that constructive expression might lead to behavior change in others. The leader reinforces this idea and explains the disadvantages of not expressing feelings or expressing them in a hostile way. The leader then transitions to discussing the steps of the skill, emphasizing the importance of looking at the person, speaking in a firm voice tone, being specific about the issue, making a clear feeling statement, and suggesting a way to prevent the situation from happening again. The group members actively participate by answering questions and sharing their thoughts.",
+    "key_characters": [
+      {
+        "name": "Leader",
+        "is_main": true,
+        "identity": "Adult, experienced social skills trainer, fluent in English.",
+        "personality": "Supportive, engaging, and structured communicator.",
+        "experience": "Extensive experience in leading social skills training sessions and working with diverse groups."
+      },
+      {
+        "name": "Bob",
+        "is_main": false,
+        "identity": "Adult male group member, fluent in English.",
+        "personality": "Straightforward and concise communicator.",
+        "experience": "Participating in social skills training to improve interpersonal skills."
+      },
+      {
+        "name": "Juanita",
+        "is_main": false,
+        "identity": "Adult female group member, fluent in English.",
+        "personality": "Thoughtful and reflective communicator.",
+        "experience": "Engaged in social skills training to enhance emotional expression."
+      },
+      {
+        "name": "Lionel",
+        "is_main": false,
+        "identity": "Adult male group member, fluent in English.",
+        "personality": "Observant and practical communicator.",
+        "experience": "Learning to express feelings constructively in social settings."
+      },
+      {
+        "name": "Yoko",
+        "is_main": false,
+        "identity": "Adult female group member, fluent in English.",
+        "personality": "Direct and emotionally expressive communicator.",
+        "experience": "Working on managing and expressing anger constructively."
+      }
+    ],
+    "relations": [
+      {
+        "relation_type": "Group leader and group members",
+        "persons": [
+          "Leader",
+          "Bob",
+          "Juanita",
+          "Lionel",
+          "Yoko"
+        ]
+      }
+    ],
+    "key_activities_or_interactions": [
+      {
+        "character_name": "Leader",
+        "behavior_action": "Introduces the topic of expressing unpleasant feelings and asks for examples.",
+        "emotional_state": "Calm and encouraging",
+        "speak": "Today we are going to work on the skill of Expressing Unpleasant Feelings. By 'unpleasant' I mean feelings that are difficult or that don\u2019t feel good to have. Can anyone give me an example of an unpleasant feeling?"
+      },
+      {
+        "character_name": "Bob",
+        "behavior_action": "Provides an example of an unpleasant feeling.",
+        "emotional_state": "Neutral",
+        "speak": "Mad."
+      },
+      {
+        "character_name": "Juanita",
+        "behavior_action": "Provides an example of an unpleasant feeling.",
+        "emotional_state": "Neutral",
+        "speak": "Feeling scared?"
+      },
+      {
+        "character_name": "Lionel",
+        "behavior_action": "Provides an example of an unpleasant feeling.",
+        "emotional_state": "Neutral",
+        "speak": "Boredom."
+      },
+      {
+        "character_name": "Yoko",
+        "behavior_action": "Shares a personal experience related to unpleasant feelings.",
+        "emotional_state": "Frustrated",
+        "speak": "Like when I want to hit someone."
+      },
+      {
+        "character_name": "Leader",
+        "behavior_action": "Explains the consequences of holding unpleasant feelings inside or expressing them destructively.",
+        "emotional_state": "Supportive",
+        "speak": "Holding unpleasant feelings inside you for a long time often feels really bad. And sometimes when you hold it in too long, one tiny little thing will just set you off. It\u2019s like the straw that breaks the camel\u2019s back."
+      },
+      {
+        "character_name": "Leader",
+        "behavior_action": "Discusses the advantages of expressing unpleasant feelings constructively.",
+        "emotional_state": "Encouraging",
+        "speak": "Letting someone know what he or she has done that\u2019s upset you can help that person change his or her behavior, and maybe that situation will be prevented from happening in the future."
+      },
+      {
+        "character_name": "Leader",
+        "behavior_action": "Introduces the steps of the skill and discusses their importance.",
+        "emotional_state": "Structured and clear",
+        "speak": "The first step in expressing an unpleasant feeling is to look at the person and to speak in a firm voice tone. Why do you think it can be important to look at a person?"
+      },
+      {
+        "character_name": "Juanita",
+        "behavior_action": "Answers the leader's question about looking at the person.",
+        "emotional_state": "Neutral",
+        "speak": "So you know they\u2019re listening."
+      },
+      {
+        "character_name": "Lionel",
+        "behavior_action": "Answers the leader's question about speaking in a firm voice tone.",
+        "emotional_state": "Neutral",
+        "speak": "Then that person really knows you mean business."
+      },
+      {
+        "character_name": "Bob",
+        "behavior_action": "Answers the leader's question about being specific.",
+        "emotional_state": "Neutral",
+        "speak": "So the other person knows what you\u2019re mad about?"
+      },
+      {
+        "character_name": "Yoko",
+        "behavior_action": "Answers the leader's question about making a feeling statement.",
+        "emotional_state": "Neutral",
+        "speak": "So the person knows how you felt."
+      },
+      {
+        "character_name": "Juanita",
+        "behavior_action": "Answers the leader's question about suggesting a way to prevent the situation.",
+        "emotional_state": "Neutral",
+        "speak": "That way you could change the situation."
+      },
+      {
+        "character_name": "Yoko",
+        "behavior_action": "Raises a concern about the effectiveness of suggesting changes.",
+        "emotional_state": "Skeptical",
+        "speak": "But what if the person doesn\u2019t want to change?"
+      },
+      {
+        "character_name": "Leader",
+        "behavior_action": "Addresses Yoko's concern and explains the importance of constructive suggestions.",
+        "emotional_state": "Reassuring",
+        "speak": "Telling the other person how he or she could change the situation in a constructive way often works very well. However, you\u2019re right, Yoko, it doesn\u2019t work every time."
+      }
+    ],
+    "goals": [
+      {
+        "character_name": "Leader",
+        "character_goal": "Teach group members the skill of expressing unpleasant feelings constructively."
+      },
+      {
+        "character_name": "Bob",
+        "character_goal": "Learn to express unpleasant feelings constructively."
+      },
+      {
+        "character_name": "Juanita",
+        "character_goal": "Understand the steps to express unpleasant feelings constructively."
+      },
+      {
+        "character_name": "Lionel",
+        "character_goal": "Improve ability to express feelings in a constructive way."
+      },
+      {
+        "character_name": "Yoko",
+        "character_goal": "Learn to manage and express anger constructively."
+      }
+    ],
+    "evaluation_guidance": "Students should reflect on how they feel about expressing unpleasant feelings and evaluate the effectiveness of the steps discussed. They can also consider how they might apply these skills in their own lives.",
+    "difficulty_score": 3,
+    "difficulty_level": "Medium",
+    "social_skills": [
+      "Communication",
+      "Emotion regulation",
+      "Building relationships"
+    ],
+    "scenario_types": {
+      "interaction_goal_types": [
+        "Collaboration"
+      ],
+      "contextual_types": [
+        {
+          "category_name": "Education",
+          "detail_name": "Classroom"
+        }
+      ]
+    },
+    "casel_competencies": [
+      "Self-Management",
+      "Relationship Skills",
+      "Social Awareness"
+    ]
+  }
+]
