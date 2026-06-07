@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SocialCoach | RL-based Agentic Tutoring for Personalized Social Skill Learning</title>
+    <meta
+      name="description"
+      content="SocialCoach is an LLM-powered agentic tutoring system for personalized social skill learning, combining theory-to-practice knowledge discovery, RL-based practice scheduling, immersive simulation, and reflective coaching."
+    />
+    <meta
+      name="keywords"
+      content="SocialCoach, social skill learning, agentic tutoring, reinforcement learning, LLM tutoring, EQoach, social emotional learning, CASEL, personalized education, KDD 2026"
+    />
+    <meta name="author" content="Tianfu Wang, Max Xiong, Jianxun Lian, Hongyuan Zhu, Zhengyu Hu, Yuxuan Lei, Linxiao Gong, Xiaofang Li, Peiting Tsai, Nicholas Jing Yuan, Qi Zhang" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="bingbot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="theme-color" content="#006c69" />
+    <link rel="canonical" href="https://tianfuwang.tech/SocialCoach/" />
+    <link rel="icon" href="./assets/socialcoach-logo.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./assets/socialcoach-icon-192.png" />
+    <link rel="manifest" href="./site.webmanifest" />
+    <link rel="alternate" type="application/pdf" title="SocialCoach paper PDF" href="./assets/socialcoach-paper.pdf" />
+    <link rel="alternate" type="text/plain" title="AI-readable SocialCoach summary" href="./llms.txt" />
+    <script>document.documentElement.classList.add("js");</script>
+    <link rel="stylesheet" href="./styles.css" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="SocialCoach" />
+    <meta property="og:title" content="SocialCoach | RL-based Agentic Tutoring for Personalized Social Skill Learning" />
+    <meta
+      property="og:description"
+      content="A holistic LLM-powered agentic tutoring system that builds expert-grounded social skill knowledge, schedules adaptive practice with RL, and delivers reflective coaching."
+    />
+    <meta property="og:url" content="https://tianfuwang.tech/SocialCoach/" />
+    <meta property="og:image" content="https://tianfuwang.tech/SocialCoach/assets/socialcoach-og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="SocialCoach paper project logo and title" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="SocialCoach | Personalized Social Skill Learning" />
+    <meta
+      name="twitter:description"
+      content="Theory-to-practice knowledge discovery, RL-based practice scheduling, immersive scenario simulation, and reflective tutoring."
+    />
+    <meta name="twitter:image" content="https://tianfuwang.tech/SocialCoach/assets/socialcoach-og.png" />
+
+    <meta name="citation_title" content="SocialCoach: Personalized Social Skill Learning with RL-based Agentic Tutoring and Practice" />
+    <meta name="citation_author" content="Wang, Tianfu" />
+    <meta name="citation_author" content="Xiong, Max" />
+    <meta name="citation_author" content="Lian, Jianxun" />
+    <meta name="citation_author" content="Zhu, Hongyuan" />
+    <meta name="citation_author" content="Hu, Zhengyu" />
+    <meta name="citation_author" content="Lei, Yuxuan" />
+    <meta name="citation_author" content="Gong, Linxiao" />
+    <meta name="citation_author" content="Li, Xiaofang" />
+    <meta name="citation_author" content="Tsai, Peiting" />
+    <meta name="citation_author" content="Yuan, Nicholas Jing" />
+    <meta name="citation_author" content="Zhang, Qi" />
+    <meta name="citation_publication_date" content="2026" />
+    <meta name="citation_online_date" content="2026/06/02" />
+    <meta name="citation_conference_title" content="KDD 2026" />
+    <meta name="citation_arxiv_id" content="2606.04155" />
+    <meta name="citation_abstract_html_url" content="https://arxiv.org/abs/2606.04155" />
+    <meta name="citation_fulltext_html_url" content="https://tianfuwang.tech/SocialCoach/" />
+    <meta name="citation_pdf_url" content="https://tianfuwang.tech/SocialCoach/assets/socialcoach-paper.pdf" />
+    <meta name="citation_keywords" content="agentic tutoring; social skill learning; reinforcement learning; LLM; social emotional learning" />
+    <meta name="DC.title" content="SocialCoach: Personalized Social Skill Learning with RL-based Agentic Tutoring and Practice" />
+    <meta name="DC.creator" content="Tianfu Wang; Max Xiong; Jianxun Lian; Hongyuan Zhu; Zhengyu Hu; Yuxuan Lei; Linxiao Gong; Xiaofang Li; Peiting Tsai; Nicholas Jing Yuan; Qi Zhang" />
+    <meta name="DC.description" content="SocialCoach is a holistic LLM-powered agentic tutoring system for personalized social skill development at scale." />
+    <meta name="DC.identifier" content="https://arxiv.org/abs/2606.04155" />
+    <meta name="DC.language" content="en" />
+    <meta name="DC.type" content="Text" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://tianfuwang.tech/SocialCoach/#webpage",
+            "url": "https://tianfuwang.tech/SocialCoach/",
+            "name": "SocialCoach: Personalized Social Skill Learning with RL-based Agentic Tutoring and Practice",
+            "description": "Project page for SocialCoach, a KDD 2026 research project on personalized social skill learning with RL-based agentic tutoring and practice.",
+            "inLanguage": "en",
+            "isPartOf": {
+              "@type": "WebSite",
+              "@id": "https://tianfuwang.tech/#website",
+              "name": "Tianfu Wang"
+            },
+            "primaryImageOfPage": {
+              "@type": "ImageObject",
+              "url": "https://tianfuwang.tech/SocialCoach/assets/socialcoach-og.png",
+              "width": 1200,
+              "height": 630
+            },
+            "mainEntity": {
+              "@id": "https://tianfuwang.tech/SocialCoach/#paper"
+            }
+          },
+          {
+            "@type": "ScholarlyArticle",
+            "@id": "https://tianfuwang.tech/SocialCoach/#paper",
+            "headline": "SocialCoach: Personalized Social Skill Learning with RL-based Agentic Tutoring and Practice",
+            "name": "SocialCoach",
+            "description": "SocialCoach is a holistic LLM-powered agentic tutoring system for personalized social skill development at scale.",
+            "abstract": "SocialCoach introduces a holistic LLM-powered agentic tutoring system for personalized social skill development at scale, combining expert-grounded knowledge construction, adaptive RL-based practice scheduling, immersive role-play, causality-driven assessment, and reflective tutoring.",
+            "datePublished": "2026-06-02",
+            "inLanguage": "en",
+            "isAccessibleForFree": true,
+            "url": "https://tianfuwang.tech/SocialCoach/",
+            "sameAs": [
+              "https://arxiv.org/abs/2606.04155",
+              "https://github.com/GeminiLight/SocialCoach"
+            ],
+            "identifier": [
+              {
+                "@type": "PropertyValue",
+                "propertyID": "arXiv",
+                "value": "2606.04155",
+                "url": "https://arxiv.org/abs/2606.04155"
+              }
+            ],
+            "image": "https://tianfuwang.tech/SocialCoach/assets/socialcoach-og.png",
+            "thumbnailUrl": "https://tianfuwang.tech/SocialCoach/assets/socialcoach-logo.svg",
+            "mainEntityOfPage": {
+              "@id": "https://tianfuwang.tech/SocialCoach/#webpage"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "arXiv"
+            },
+            "encoding": {
+              "@type": "MediaObject",
+              "contentUrl": "https://tianfuwang.tech/SocialCoach/assets/socialcoach-paper.pdf",
+              "encodingFormat": "application/pdf"
+            },
+            "author": [
+              { "@type": "Person", "name": "Tianfu Wang", "affiliation": "HKUST (GZ)" },
+              { "@type": "Person", "name": "Max Xiong", "affiliation": "Duke University" },
+              { "@type": "Person", "name": "Jianxun Lian", "affiliation": "MSRA" },
+              { "@type": "Person", "name": "Hongyuan Zhu", "affiliation": "Microsoft" },
+              { "@type": "Person", "name": "Zhengyu Hu", "affiliation": "HKUST (GZ)" },
+              { "@type": "Person", "name": "Yuxuan Lei", "affiliation": "Microsoft" },
+              { "@type": "Person", "name": "Linxiao Gong", "affiliation": "HKUST (GZ)" },
+              { "@type": "Person", "name": "Xiaofang Li", "affiliation": "Microsoft" },
+              { "@type": "Person", "name": "Peiting Tsai", "affiliation": "Microsoft" },
+              { "@type": "Person", "name": "Nicholas Jing Yuan", "affiliation": "Microsoft" },
+              { "@type": "Person", "name": "Qi Zhang", "affiliation": "Microsoft" }
+            ],
+            "keywords": [
+              "agentic tutoring",
+              "social skill learning",
+              "reinforcement learning",
+              "large language models",
+              "social emotional learning",
+              "adaptive practice scheduling"
+            ],
+            "about": [
+              "Personalized education",
+              "Social skill coaching",
+              "LLM agents",
+              "Reinforcement learning",
+              "Agentic tutoring",
+              "Social emotional learning"
+            ]
+          },
+          {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://tianfuwang.tech/SocialCoach/#code",
+            "name": "SocialCoach",
+            "codeRepository": "https://github.com/GeminiLight/SocialCoach",
+            "programmingLanguage": ["Python", "JavaScript"],
+            "applicationCategory": "EducationalApplication"
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://tianfuwang.tech/SocialCoach/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What is SocialCoach?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "SocialCoach is an LLM-powered agentic tutoring framework for personalized social skill learning. It combines expert-grounded knowledge discovery, user profiling, RL-based practice scheduling, immersive simulation, and reflective coaching."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What evidence does the paper report?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The paper reports a 40,000+ entry social skill knowledge corpus, expert validation with Fleiss' Kappa of 0.63, improved simulated pathway quality, judge-rated tutoring quality, and an EQoach user study with 50 participants."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Where can I read the SocialCoach paper and code?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The SocialCoach paper is available on arXiv at https://arxiv.org/abs/2606.04155, and the code repository is linked from https://github.com/GeminiLight/SocialCoach."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header" data-elevate>
+      <a class="brand" href="#top" aria-label="SocialCoach home">
+        <img class="brand-mark" src="./assets/socialcoach-logo.svg" alt="" aria-hidden="true" />
+        <span>SocialCoach</span>
+      </a>
+      <nav class="top-nav" aria-label="Primary navigation">
+        <a href="#method">Method</a>
+        <a href="#results">Results</a>
+        <a href="#demo">Demo</a>
+        <a href="#resources">Resources</a>
+      </nav>
+      <a class="nav-cta" href="https://arxiv.org/abs/2606.04155">Paper</a>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-headline reveal">
+          <h1 id="hero-title">
+            <span class="title-line"><span class="title-brand">SocialCoach</span>: Personalized Social Skill Learning</span>
+            <span class="title-line">with RL-based Agentic Tutoring and Practice</span>
+          </h1>
+          <p class="paper-authors">
+            Tianfu Wang<sup>1</sup>, Max Xiong<sup>2</sup>, Jianxun Lian<sup>3</sup>,
+            Hongyuan Zhu<sup>4</sup>, Zhengyu Hu<sup>1</sup>, Yuxuan Lei<sup>4</sup>,
+            Linxiao Gong<sup>1</sup>, Xiaofang Li<sup>4</sup>, Peiting Tsai<sup>4</sup>,
+            Nicholas Jing Yuan<sup>4</sup>, Qi Zhang<sup>4</sup>
+          </p>
+          <p class="paper-affiliations">
+            <sup>1</sup>HKUST (GZ) &nbsp; <sup>2</sup>Duke University &nbsp;
+            <sup>3</sup>MSRA &nbsp; <sup>4</sup>Microsoft
+          </p>
+        </div>
+
+        <div class="hero-body">
+          <div class="hero-copy reveal">
+          <p class="hero-subtitle">
+            SocialCoach builds expert-grounded knowledge, schedules practice with reinforcement learning,
+            and closes the knowing-doing gap through immersive simulation and reflective coaching.
+          </p>
+          <div class="hero-actions" aria-label="Project actions">
+            <a class="button button-primary" href="https://arxiv.org/abs/2606.04155">Read paper</a>
+            <a class="button button-secondary" href="https://github.com/GeminiLight/SocialCoach">View code</a>
+            <button class="button button-ghost" type="button" data-copy-bib>Copy BibTeX</button>
+          </div>
+          <dl class="hero-metrics" aria-label="Key project metrics">
+            <div>
+              <dt>40K+</dt>
+              <dd>knowledge entries</dd>
+            </div>
+            <div>
+              <dt>200</dt>
+              <dd>expert sources</dd>
+            </div>
+            <div>
+              <dt>4.88</dt>
+              <dd>reflective depth</dd>
+            </div>
+          </dl>
+          </div>
+
+          <div class="hero-visual reveal" aria-label="EQoach product interface preview">
+          <div class="visual-frame">
+            <div class="phone phone-left">
+              <img src="./assets/demo-profile.webp" alt="EQoach learner profile screen" loading="eager" />
+            </div>
+            <div class="phone phone-front">
+              <img src="./assets/demo-arena.webp" alt="EQoach scenario practice arena screen" loading="eager" />
+            </div>
+            <div class="phone phone-right">
+              <img src="./assets/demo-conversation.webp" alt="EQoach immersive conversation screen" loading="eager" />
+            </div>
+            <div class="loop-card">
+              <span>Profile</span>
+              <span>Retrieve</span>
+              <span>Practice</span>
+              <span>Reflect</span>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro-band" aria-labelledby="overview-title">
+        <div class="section-header section-header-centered reveal">
+          <p class="section-kicker">Research contribution</p>
+          <h2 id="overview-title">A complete coaching loop for soft skills at scale.</h2>
+          <p>
+            SocialCoach addresses the scarcity of expert social skill coaching by connecting four modules:
+            automated knowledge discovery, dynamic learner profiling, RL-based practice scheduling, and
+            pedagogically grounded reflective tutoring. The system is deployed in EQoach, a mobile-first
+            practice product used for an early user study.
+          </p>
+        </div>
+      </section>
+
+      <section class="section abstract-section" id="abstract" aria-labelledby="abstract-title">
+        <div class="section-header section-header-centered reveal">
+          <p class="section-kicker">Abstract</p>
+          <h2 id="abstract-title">Personalized social skill learning through agentic practice.</h2>
+          <p>
+            Social skills such as negotiation and leadership are crucial for personal and professional
+            success, but scalable training remains difficult because expert coaching is scarce. SocialCoach
+            is a holistic LLM-powered agentic tutoring system for personalized social skill development at
+            scale. It constructs a pedagogically grounded theory-to-practice knowledge corpus from expert
+            sources, schedules adaptive practice through a prescription-retrieval-adaptation process
+            optimized with reinforcement learning, and integrates immersive role-play, causality-driven
+            proficiency assessment, and knowledge-grounded reflective tutoring. Deployed in EQoach, the
+            system improves simulated pathway quality and judge-rated tutoring quality over baselines, while
+            early user feedback indicates strong perceived engagement and usefulness.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="method" aria-labelledby="method-title">
+        <div class="section-header section-header-centered reveal">
+          <p class="section-kicker">Method</p>
+          <h2 id="method-title">From expert knowledge to personalized practice.</h2>
+          <p>
+            The framework is designed around traceability: SocialCoach extracts, tags, retrieves, and adapts
+            expert-derived material instead of asking a model to invent coaching knowledge on demand.
+          </p>
+        </div>
+
+        <div class="framework-panel reveal">
+          <img src="./assets/social-coach-framework.webp" alt="Overview diagram of the SocialCoach framework" loading="lazy" />
+        </div>
+
+        <div class="method-grid">
+          <article class="method-card reveal">
+            <span class="card-index">01</span>
+            <h3>Knowledge discovery</h3>
+            <p>
+              A multi-agent pipeline extracts strategic theories, illustrative cases, and practical scenarios
+              from curated expert sources, then tags each item across CASEL competency, social skill, and
+              scenario context.
+            </p>
+          </article>
+          <article class="method-card reveal">
+            <span class="card-index">02</span>
+            <h3>User social profiling</h3>
+            <p>
+              The learner state combines demographics, personality traits, target skills, behavior history,
+              and evolving proficiency ratings across social competencies.
+            </p>
+          </article>
+          <article class="method-card reveal">
+            <span class="card-index">03</span>
+            <h3>RL scheduling</h3>
+            <p>
+              A prescription-retrieval-adaptation policy turns a learner profile into targeted practice,
+              balancing semantic retrieval with long-horizon pathway quality.
+            </p>
+          </article>
+          <article class="method-card reveal">
+            <span class="card-index">04</span>
+            <h3>Reflective tutoring</h3>
+            <p>
+              After practice, SocialCoach diagnoses behavior, attributes the cause of skill gaps, retrieves
+              relevant theory or cases, and guides transfer with Socratic reflection.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section knowledge-section" aria-labelledby="knowledge-title">
+        <div class="section-header section-header-centered reveal">
+          <p class="section-kicker">Knowledge corpus</p>
+          <h2 id="knowledge-title">A theory-to-practice structure built for retrieval.</h2>
+          <p>
+            The corpus contains over 40,000 unique entries. Every item is organized so an agent can move
+            from concept, to example, to practice without losing pedagogical grounding.
+          </p>
+        </div>
+        <div class="split-layout knowledge-layout">
+          <div class="knowledge-stats reveal">
+            <ul class="plain-list">
+              <li><strong>13,298</strong> strategic theories for conceptual understanding.</li>
+              <li><strong>22,050</strong> illustrative cases for situated examples.</li>
+              <li><strong>5,117</strong> practical scenarios for immersive rehearsal.</li>
+            </ul>
+          </div>
+          <div class="artifact-stack reveal">
+            <figure>
+              <img src="./assets/social-knowledge.webp" alt="SocialCoach theory-to-practice knowledge structure" loading="lazy" />
+              <figcaption>The knowledge base links strategic theory, illustrative cases, and practical scenarios.</figcaption>
+            </figure>
+            <figure>
+              <img src="./assets/top-10-social-skills.webp" alt="Top social skill distribution in the SocialCoach corpus" loading="lazy" />
+              <figcaption>Semantic tags make the corpus filterable by competency, skill, and scenario context.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section results-section" id="results" aria-labelledby="results-title">
+        <div class="section-header section-header-centered reveal">
+          <p class="section-kicker">Evidence</p>
+          <h2 id="results-title">Measured across knowledge quality, pathway planning, and real product feedback.</h2>
+          <p>
+            The evaluation combines expert validation, simulated learner pathways, judge-rated tutoring
+            comparisons, and a 50-participant EQoach user study.
+          </p>
+        </div>
+
+        <div class="results-grid">
+          <article class="result-card reveal">
+            <p class="metric-label">Expert agreement</p>
+            <strong>0.63</strong>
+            <span>Fleiss' Kappa for corpus quality validation</span>
+          </article>
+          <article class="result-card reveal">
+            <p class="metric-label">Scheduling engagement</p>
+            <strong>4.38</strong>
+            <span>SocialCoach Qwen3-8B in 10-session pathways</span>
+          </article>
+          <article class="result-card reveal">
+            <p class="metric-label">Learning gain</p>
+            <strong>4.11</strong>
+            <span>Judge-rated pathway learning value</span>
+          </article>
+          <article class="result-card reveal">
+            <p class="metric-label">User study</p>
+            <strong>50</strong>
+            <span>Students and early-career professionals using EQoach</span>
+          </article>
+        </div>
+
+        <div class="evidence-gallery">
+          <figure class="wide-figure reveal">
+            <img src="./assets/evaluation-practice-pathway.webp" alt="SocialCoach adaptive practice pathway evaluation chart" loading="lazy" />
+            <figcaption>SocialCoach improves simulated practice pathway quality over retrieval and non-tuned LLM baselines.</figcaption>
+          </figure>
+          <figure class="wide-figure reveal">
+            <img src="./assets/tutoring-evaluation.webp" alt="SocialCoach tutoring evaluation radar chart" loading="lazy" />
+            <figcaption>Diagnosis, attribution, personalization, actionability, and traceability are evaluated in the coaching loop.</figcaption>
+          </figure>
+          <figure class="wide-figure reveal">
+            <img src="./assets/user-results.webp" alt="EQoach user study questionnaire results" loading="lazy" />
+            <figcaption>EQoach users report strong reflective depth, pedagogical alignment, and skill transferability.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section demo-section" id="demo" aria-labelledby="demo-title">
+        <div class="section-header reveal">
+          <p class="section-kicker">EQoach demo</p>
+          <h2 id="demo-title">A deployed learning experience powered by SocialCoach.</h2>
+          <p>
+            EQoach turns the research system into a mobile-first product flow: profile the learner, choose a
+            scenario, practice with an LLM-powered role, then receive reflective tutoring.
+          </p>
+        </div>
+        <div class="demo-strip" aria-label="EQoach interface screenshots">
+          <figure class="demo-phone reveal">
+            <img src="./assets/demo-task.webp" alt="EQoach practice task screen" loading="lazy" />
+            <figcaption>Scenario brief</figcaption>
+          </figure>
+          <figure class="demo-phone reveal">
+            <img src="./assets/demo-player.webp" alt="EQoach player character screen" loading="lazy" />
+            <figcaption>Learner role</figcaption>
+          </figure>
+          <figure class="demo-phone reveal">
+            <img src="./assets/demo-background.webp" alt="EQoach scenario background screen" loading="lazy" />
+            <figcaption>Context setup</figcaption>
+          </figure>
+          <figure class="demo-phone reveal">
+            <img src="./assets/demo-conversation.webp" alt="EQoach simulated conversation screen" loading="lazy" />
+            <figcaption>Practice loop</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section resources-section" id="resources" aria-labelledby="resources-title">
+        <div class="resource-card reveal">
+          <div>
+            <p class="section-kicker">Resources</p>
+            <h2 id="resources-title">Explore SocialCoach.</h2>
+            <p>
+              Read the paper, inspect the implementation, copy the citation, or share the project
+              summary with research agents and search systems.
+            </p>
+          </div>
+          <div class="resource-actions">
+            <a class="button button-primary" href="https://arxiv.org/abs/2606.04155">arXiv link</a>
+            <a class="button button-secondary" href="https://github.com/GeminiLight/SocialCoach">Open repository</a>
+            <a class="button button-secondary" href="./llms.txt">Read llms.txt</a>
+          </div>
+        </div>
+
+        <div class="citation-block reveal">
+          <div class="citation-header">
+            <h3>BibTeX</h3>
+            <button class="small-button" type="button" data-copy-bib>Copy</button>
+          </div>
+          <pre><code id="bibtex">@inproceedings{wang2026socialcoach,
+  title = {SocialCoach: Personalized Social Skill Learning with RL-based Agentic Tutoring and Practice},
+  author = {Wang, Tianfu and Xiong, Max and Lian, Jianxun and Zhu, Hongyuan and Hu, Zhengyu and Lei, Yuxuan and Gong, Linxiao and Li, Xiaofang and Tsai, Peiting and Yuan, Nicholas Jing and Zhang, Qi},
+  booktitle = {Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+  year = {2026}
+}</code></pre>
+        </div>
+      </section>
+
+      <section class="section faq-section" id="faq" aria-labelledby="faq-title">
+        <div class="section-header section-header-centered reveal">
+          <p class="section-kicker">FAQ</p>
+          <h2 id="faq-title">Quick answers for readers and AI research assistants.</h2>
+        </div>
+        <div class="faq-grid">
+          <article class="faq-item reveal">
+            <h3>What is SocialCoach?</h3>
+            <p>
+              SocialCoach is an LLM-powered agentic tutoring framework for personalized social skill
+              learning. It connects expert knowledge discovery, learner profiling, RL-based practice
+              scheduling, immersive scenario simulation, and reflective coaching.
+            </p>
+          </article>
+          <article class="faq-item reveal">
+            <h3>What evidence does the paper report?</h3>
+            <p>
+              The paper reports a 40,000+ entry knowledge corpus, expert validation with Fleiss' Kappa of
+              0.63, improved simulated pathway quality, judge-rated tutoring quality, and a 50-participant
+              EQoach user study.
+            </p>
+          </article>
+          <article class="faq-item reveal">
+            <h3>Where are the paper and code?</h3>
+            <p>
+              The paper record is available on arXiv at 2606.04155, and the code repository is linked from
+              the project resources section.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>SocialCoach: Personalized Social Skill Learning with RL-based Agentic Tutoring and Practice.</p>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <div class="toast" role="status" aria-live="polite" data-toast>Copied BibTeX</div>
+    <script src="./script.js"></script>
+  </body>
+</html>
