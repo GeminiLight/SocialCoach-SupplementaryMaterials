@@ -28,4 +28,4 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
-Sitemap: https://tianfuwang.tech/SocialCoach/sitemap.xml
+Sitemap: https://tianfu.wang/SocialCoach/sitemap.xml
