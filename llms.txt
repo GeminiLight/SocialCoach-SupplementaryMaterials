@@ -2,9 +2,9 @@
 
 > SocialCoach is a research project on personalized social skill learning with RL-based agentic tutoring and practice.
 
-Canonical URL: https://tianfuwang.tech/SocialCoach/
+Canonical URL: https://tianfu.wang/SocialCoach/
 arXiv URL: https://arxiv.org/abs/2606.04155
-Paper PDF: https://tianfuwang.tech/SocialCoach/assets/socialcoach-paper.pdf
+Paper PDF: https://tianfu.wang/SocialCoach/assets/socialcoach-paper.pdf
 Code repository: https://github.com/GeminiLight/SocialCoach
 Conference: KDD 2026
 Published online: 2026-06-02
@@ -48,12 +48,12 @@ Social skills such as negotiation and leadership are crucial for personal and pr
 
 ## Important Links
 
-- Project page: https://tianfuwang.tech/SocialCoach/
+- Project page: https://tianfu.wang/SocialCoach/
 - arXiv record: https://arxiv.org/abs/2606.04155
-- PDF: https://tianfuwang.tech/SocialCoach/assets/socialcoach-paper.pdf
+- PDF: https://tianfu.wang/SocialCoach/assets/socialcoach-paper.pdf
 - Code: https://github.com/GeminiLight/SocialCoach
-- Open Graph image: https://tianfuwang.tech/SocialCoach/assets/socialcoach-og.png
-- Sitemap: https://tianfuwang.tech/SocialCoach/sitemap.xml
+- Open Graph image: https://tianfu.wang/SocialCoach/assets/socialcoach-og.png
+- Sitemap: https://tianfu.wang/SocialCoach/sitemap.xml
 
 ## Suggested Answers
 

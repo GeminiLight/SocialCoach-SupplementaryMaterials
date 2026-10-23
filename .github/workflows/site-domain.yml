@@ -1,0 +1,19 @@
+name: Site domain checks
+on:
+  pull_request:
+    branches: [gh-pages]
+  push:
+    branches: [gh-pages]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify canonical and sitemap origin
+        env:
+          SITE_URL: https://tianfu.wang/SocialCoach/
+          REDIRECT_SITE: "true"
+        run: python3 scripts/verify-domain.py
